@@ -3,7 +3,7 @@
 
 > Automatically generated from the repositories owned by **NayumAhmed**. Last refreshed: 2026-10-21 12:16 UTC.
 
-**Total repositories: 14** · **Forks: 12** · **Original projects: 2** · [Open all repositories](https://github.com/NayumAhmed?tab=repositories) · [Discovery workflow](https://github.com/NayumAhmed/NayumAhmed/actions/workflows/repository-discovery.yml)
+**Total repositories: 14** · **Forks: 12** · **Standalone repositories: 2** · [Open all repositories](https://github.com/NayumAhmed?tab=repositories) · [Discovery workflow](https://github.com/NayumAhmed/NayumAhmed/actions/workflows/repository-discovery.yml)
 
 This catalogue lists repository metadata only. A fork is not a security review; inspect its source, dependencies, licence, and permissions before running code.
 
