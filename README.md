@@ -35,12 +35,13 @@ A snapshot of your GitHub inventory and the latest completed discovery workflow.
 
 | 📦 Repositories in account | 🍴 Forks | 🛠️ Original projects | ⚙️ Last completed discovery run |
 |:---:|:---:|:---:|:---:|
-| **Loading on next workflow run** | **—** | **—** | **Not refreshed yet** |
+| <strong>14</strong> | <strong>12</strong> | <strong>2</strong> | <a href="https://github.com/NayumAhmed/NayumAhmed/actions/runs/39597509685">Success</a><br/><sub>2026-10-21 12:10 UTC</sub> |
 
-<a href="https://github.com/NayumAhmed?tab=repositories"><img src="https://img.shields.io/badge/VIEW-REPOSITORIES-2563EB?style=for-the-badge&logo=github" alt="View repositories"/></a>
+<a href="https://github.com/NayumAhmed?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-14-2563EB?style=for-the-badge&logo=github" alt="Repository count"/></a>
 <a href="https://github.com/NayumAhmed/NayumAhmed/actions/workflows/repository-discovery.yml"><img src="https://img.shields.io/badge/DISCOVERY-WORKFLOW-DB2777?style=for-the-badge&logo=githubactions" alt="Open discovery workflow"/></a>
+<a href="https://github.com/NayumAhmed/NayumAhmed/actions/runs/39597509685"><img src="https://img.shields.io/badge/LAST%20RUN-SUCCESS-0F766E?style=for-the-badge" alt="Last workflow result"/></a>
 
-<sub>This panel is refreshed automatically when the workflow runs.</sub>
+<sub>Dashboard snapshot refreshed 2026-10-21 12:16 UTC. Repository count is read from GitHub's repository API. Last-run details are read from GitHub Actions.</sub>
 
 </div>
 <!-- REPOSITORY_DASHBOARD_END -->
