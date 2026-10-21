@@ -1,0 +1,31 @@
+name: Refresh PC Game Port Library
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: game-port-library-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh-library:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out automation scripts
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Discover and update game-port links
+        env:
+          GITHUB_TOKEN: ${{ secrets.FORK_AUTOMATION_TOKEN }}
+          GITHUB_OWNER: NayumAhmed
+          GAME_LIBRARY_REPO: NayumAhmed/arcade-orbit47
+          GAME_LIBRARY_PATH: repositories/README.md
+          GAME_LIBRARY_MIN_STARS: "5"
+        run: python scripts/update_game_repository_library.py
