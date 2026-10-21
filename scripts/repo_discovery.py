@@ -17,7 +17,7 @@ MAX_AGE = int(os.environ.get("MAX_PUSH_AGE_DAYS", "180"))
 DRY_RUN = os.environ.get("DRY_RUN", "true").lower() != "false"
 TOPICS = ["ai-tools", "browser-games", "developer-tools", "android-tv", "google-tv", "ai-agents", "web-apps"]
 DENY_LICENSES = {"NOASSERTION", "OTHER", ""}
-HEADERS = {"Accept":"application/vnd.github+json", "X-GitHub-Api-Version":"2026-03-10", "User-Agent":"NayumAhmed-RepoDiscovery"}
+HEADERS = {"Accept":"application/vnd.github+json", "X-GitHub-Api-Version":"2022-11-28", "User-Agent":"NayumAhmed-RepoDiscovery"}
 if TOKEN:
     HEADERS["Authorization"] = "Bearer " + TOKEN
 
