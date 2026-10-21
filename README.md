@@ -83,6 +83,7 @@ I'm Nayum. I use GitHub to explore ideas, build practical projects, learn from o
 <div align="center">
 
 <a href="https://github.com/NayumAhmed/arcade-orbit47"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=arcade-orbit47&theme=tokyonight&hide_border=true&description_lines_count=2" alt="Arcade Orbit repository card"/></a>
+<a href="https://github.com/NayumAhmed/arcade-orbit47/tree/main/repositories"><img src="https://img.shields.io/badge/🎮%20PC%20GAME%20PORTS-REPOSITORY%20LIBRARY-DC2626?style=for-the-badge&logo=github&logoColor=white" alt="PC game ports repository library"/></a>
 <a href="https://github.com/NayumAhmed/cleanyourtv"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=cleanyourtv&theme=tokyonight&hide_border=true&description_lines_count=2" alt="Clean Your TV repository card"/></a>
 <a href="https://github.com/NayumAhmed/reverse-skill"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=reverse-skill&theme=tokyonight&hide_border=true&description_lines_count=2" alt="Reverse Skill repository card"/></a>
 
