@@ -36,13 +36,13 @@ A snapshot of your GitHub inventory and the latest completed discovery workflow.
 
 | 📦 Repositories in account | 🍴 Forks | 🛠️ Standalone repositories | ⚙️ Last completed discovery run |
 |:---:|:---:|:---:|:---:|
-| <strong>14</strong> | <strong>12</strong> | <strong>2</strong> | <a href="https://github.com/NayumAhmed/NayumAhmed/actions/runs/39600667479">Failure</a><br/><sub>2026-10-21 12:34 UTC</sub> |
+| <strong>14</strong> | <strong>12</strong> | <strong>2</strong> | <a href="https://github.com/NayumAhmed/NayumAhmed/actions/runs/39601589583">Success</a><br/><sub>2026-10-21 12:41 UTC</sub> |
 
 <a href="https://github.com/NayumAhmed?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-14-2563EB?style=for-the-badge&logo=github" alt="Repository count"/></a>
 <a href="https://github.com/NayumAhmed/NayumAhmed/actions/workflows/repository-discovery.yml"><img src="https://img.shields.io/badge/DISCOVERY-WORKFLOW-DB2777?style=for-the-badge&logo=githubactions" alt="Open discovery workflow"/></a>
-<a href="https://github.com/NayumAhmed/NayumAhmed/actions/runs/39600667479"><img src="https://img.shields.io/badge/LAST%20RUN-FAILURE-0F766E?style=for-the-badge" alt="Last workflow result"/></a>
+<a href="https://github.com/NayumAhmed/NayumAhmed/actions/runs/39601589583"><img src="https://img.shields.io/badge/LAST%20RUN-SUCCESS-0F766E?style=for-the-badge" alt="Last workflow result"/></a>
 
-<sub>Dashboard snapshot refreshed 2026-10-21 12:41 UTC. Repository count is read from GitHub's repository API. Last-run details are read from GitHub Actions.</sub>
+<sub>Dashboard snapshot refreshed 2026-10-21 12:47 UTC. Repository count is read from GitHub's repository API. Last-run details are read from GitHub Actions.</sub>
 
 </div>
 <!-- REPOSITORY_DASHBOARD_END -->

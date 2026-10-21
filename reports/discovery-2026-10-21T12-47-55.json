@@ -1,0 +1,22 @@
+{
+  "generated_at_utc": "2026-10-21T12:47:55.091140+00:00",
+  "owner": "NayumAhmed",
+  "dry_run": false,
+  "weekly_fork_limit": 10,
+  "prior_requests_in_rolling_week": 10,
+  "remaining_allowance_at_start": 0,
+  "fork_requests_accepted": 0,
+  "topics": [
+    "ai-tools",
+    "browser-games",
+    "developer-tools",
+    "android-tv",
+    "google-tv",
+    "ai-agents",
+    "web-apps"
+  ],
+  "minimum_stars": 100,
+  "max_push_age_days": 180,
+  "results": [],
+  "warning": "Metadata screening is not a security audit. Never run candidate code without independent review."
+}
