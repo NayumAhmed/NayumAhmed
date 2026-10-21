@@ -45,6 +45,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.FORK_AUTOMATION_TOKEN }}
           GITHUB_OWNER: NayumAhmed
         run: python scripts/update_repository_catalog.py
+      - name: Refresh PC game port library
+        env:
+          GITHUB_TOKEN: ${{ secrets.FORK_AUTOMATION_TOKEN }}
+          GITHUB_OWNER: NayumAhmed
+          GAME_LIBRARY_REPO: NayumAhmed/arcade-orbit47
+          GAME_LIBRARY_PATH: repositories/README.md
+          GAME_LIBRARY_MIN_STARS: "5"
+        run: python scripts/update_game_repository_library.py
       - name: Upload discovery report
         if: always()
         uses: actions/upload-artifact@v4
