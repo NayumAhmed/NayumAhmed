@@ -1,0 +1,1208 @@
+{
+  "generated_at_utc": "2026-10-21T11:41:44.132865+00:00",
+  "owner": "NayumAhmed",
+  "dry_run": true,
+  "weekly_fork_limit": 10,
+  "prior_requests_in_rolling_week": 0,
+  "remaining_allowance_at_start": 10,
+  "fork_requests_accepted": 0,
+  "topics": [
+    "ai-tools",
+    "browser-games",
+    "developer-tools",
+    "android-tv",
+    "google-tv",
+    "ai-agents",
+    "web-apps"
+  ],
+  "minimum_stars": 100,
+  "max_push_age_days": 180,
+  "results": [
+    {
+      "repository": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "stars": 353239,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:38:08Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 255741,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:36:59Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "stars": 105442,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T09:53:34Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "stars": 91458,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:29:45Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "stars": 68841,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:38:38Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "stars": 43637,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:39:51Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "agno-agi/agno",
+      "url": "https://github.com/agno-agi/agno",
+      "stars": 42849,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:40:44Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "stars": 39420,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:40:47Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "medusajs/medusa",
+      "url": "https://github.com/medusajs/medusa",
+      "stars": 36834,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:30:01Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "agentscope-ai/QwenPaw",
+      "url": "https://github.com/agentscope-ai/QwenPaw",
+      "stars": 35900,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:37:51Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "yuliskov/SmartTube",
+      "url": "https://github.com/yuliskov/SmartTube",
+      "stars": 35260,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T00:56:10Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "Twigpine/openclaude",
+      "url": "https://github.com/Twigpine/openclaude",
+      "stars": 34060,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T10:31:39Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "kestra-io/kestra",
+      "url": "https://github.com/kestra-io/kestra",
+      "stars": 29917,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:40:28Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "stars": 28625,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:40:27Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "youhunwl/TVAPP",
+      "url": "https://github.com/youhunwl/TVAPP",
+      "stars": 25580,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T06:30:41Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "nocobase/nocobase",
+      "url": "https://github.com/nocobase/nocobase",
+      "stars": 24653,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:36:01Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "stars": 23736,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:39:28Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "getpaseo/paseo",
+      "url": "https://github.com/getpaseo/paseo",
+      "stars": 21582,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:36:11Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "lexmount/moli",
+      "url": "https://github.com/lexmount/moli",
+      "stars": 19983,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:39:51Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "nesquena/hermes-webui",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "stars": 19076,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:38:14Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "lidge-jun/opencodex",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "stars": 17717,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:20:57Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "stars": 15506,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T09:51:21Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "stars": 14166,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:40:34Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "omnigent-ai/omnigent",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "stars": 10946,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:39:56Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "karatelabs/karate",
+      "url": "https://github.com/karatelabs/karate",
+      "stars": 8992,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:28:49Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "stars": 8092,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:40:38Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "ArvinLovegood/go-stock",
+      "url": "https://github.com/ArvinLovegood/go-stock",
+      "stars": 7899,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-21T10:57:17Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "Gaurav-Gosain/tuios",
+      "url": "https://github.com/Gaurav-Gosain/tuios",
+      "stars": 5548,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:39:39Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "stars": 5328,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:35:18Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "jellyfin/jellyfin-androidtv",
+      "url": "https://github.com/jellyfin/jellyfin-androidtv",
+      "stars": 4639,
+      "license": "GPL-2.0",
+      "pushed_at": "2026-10-21T02:05:28Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "pydantic/logfire",
+      "url": "https://github.com/pydantic/logfire",
+      "stars": 4518,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:39:51Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "waligoraamodio288-rgb/hongguo-desktop-releases",
+      "url": "https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases",
+      "stars": 4226,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-20T16:19:13Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "microsoft/apm",
+      "url": "https://github.com/microsoft/apm",
+      "stars": 4101,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:38:01Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "Sumanth077/Hands-On-AI-Engineering",
+      "url": "https://github.com/Sumanth077/Hands-On-AI-Engineering",
+      "stars": 4027,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:35:24Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "skyhook-io/radar",
+      "url": "https://github.com/skyhook-io/radar",
+      "stars": 3881,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:39:49Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "rlaope/oh-my-hermes",
+      "url": "https://github.com/rlaope/oh-my-hermes",
+      "stars": 3504,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:33:00Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "agavra/tuicr",
+      "url": "https://github.com/agavra/tuicr",
+      "stars": 3431,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T10:37:16Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "damontecres/Wholphin",
+      "url": "https://github.com/damontecres/Wholphin",
+      "stars": 3101,
+      "license": "GPL-2.0",
+      "pushed_at": "2026-10-20T13:11:48Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "mytv-android/mytv-android",
+      "url": "https://github.com/mytv-android/mytv-android",
+      "stars": 2850,
+      "license": "MIT",
+      "pushed_at": "2026-10-18T15:42:30Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "simbasjungles/free-my-tv",
+      "url": "https://github.com/simbasjungles/free-my-tv",
+      "stars": 2249,
+      "license": "MIT",
+      "pushed_at": "2026-10-20T22:16:13Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "ReScienceLab/opc-skills",
+      "url": "https://github.com/ReScienceLab/opc-skills",
+      "stars": 1873,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:27:05Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "ariacom/Seal-Report",
+      "url": "https://github.com/ariacom/Seal-Report",
+      "stars": 1641,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:30:01Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "razzant/ouroboros",
+      "url": "https://github.com/razzant/ouroboros",
+      "stars": 1570,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:29:27Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "mohitagw15856/pm-claude-skills",
+      "url": "https://github.com/mohitagw15856/pm-claude-skills",
+      "stars": 1475,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T10:11:50Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "vitalets/awesome-smart-tv",
+      "url": "https://github.com/vitalets/awesome-smart-tv",
+      "stars": 1440,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-20T06:47:50Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "alookai/alook",
+      "url": "https://github.com/alookai/alook",
+      "stars": 1427,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:39:13Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "oceanbase/powercontext",
+      "url": "https://github.com/oceanbase/powercontext",
+      "stars": 1355,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:40:34Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "syrizelink/OpenFic",
+      "url": "https://github.com/syrizelink/OpenFic",
+      "stars": 1239,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:37:59Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "theothernt/AerialViews",
+      "url": "https://github.com/theothernt/AerialViews",
+      "stars": 1104,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-20T22:26:45Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "PRProd/HA-Firemote",
+      "url": "https://github.com/PRProd/HA-Firemote",
+      "stars": 1086,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-03-08T06:20:31Z",
+      "decision": "rejected",
+      "reasons": [
+        "not updated in 180 days"
+      ]
+    },
+    {
+      "repository": "LeanBitLab/LeanType",
+      "url": "https://github.com/LeanBitLab/LeanType",
+      "stars": 1072,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-21T11:28:42Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "stars": 968,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:06:48Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "Auto-Explore/GitComet",
+      "url": "https://github.com/Auto-Explore/GitComet",
+      "stars": 941,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-10-21T11:28:02Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "superiorlu/AITreasureBox",
+      "url": "https://github.com/superiorlu/AITreasureBox",
+      "stars": 874,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-21T10:30:13Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "juspay/xyne-spaces",
+      "url": "https://github.com/juspay/xyne-spaces",
+      "stars": 820,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:40:21Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "qf-studio/pilot",
+      "url": "https://github.com/qf-studio/pilot",
+      "stars": 722,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:29:21Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "frontman-ai/frontman",
+      "url": "https://github.com/frontman-ai/frontman",
+      "stars": 719,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:31:07Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "Nerwyn/universal-remote-card",
+      "url": "https://github.com/Nerwyn/universal-remote-card",
+      "stars": 611,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-20T17:08:46Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "yangxiaoge/tvbox_cust",
+      "url": "https://github.com/yangxiaoge/tvbox_cust",
+      "stars": 606,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-20T19:58:19Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "kydlikebtc/awesome-jev",
+      "url": "https://github.com/kydlikebtc/awesome-jev",
+      "stars": 593,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:37:59Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "level09/enferno",
+      "url": "https://github.com/level09/enferno",
+      "stars": 568,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:39:07Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "httptoolkit/httptoolkit-server",
+      "url": "https://github.com/httptoolkit/httptoolkit-server",
+      "stars": 568,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-10-21T11:29:27Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "dappros/ethora",
+      "url": "https://github.com/dappros/ethora",
+      "stars": 551,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:27:16Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "mixpeek/amux",
+      "url": "https://github.com/mixpeek/amux",
+      "stars": 544,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:24:40Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "Th0rgal/orb",
+      "url": "https://github.com/Th0rgal/orb",
+      "stars": 532,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:24:51Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "caura-ai/caura",
+      "url": "https://github.com/caura-ai/caura",
+      "stars": 503,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:38:40Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "Spyou/Zangetsu",
+      "url": "https://github.com/Spyou/Zangetsu",
+      "stars": 428,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-21T11:39:59Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "caipe-io/ai-platform-engineering",
+      "url": "https://github.com/caipe-io/ai-platform-engineering",
+      "stars": 427,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:36:31Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "MoazSalem/litefin",
+      "url": "https://github.com/MoazSalem/litefin",
+      "stars": 415,
+      "license": "MPL-2.0",
+      "pushed_at": "2026-10-20T14:20:58Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "leanbitlab-org/LtvLauncher",
+      "url": "https://github.com/leanbitlab-org/LtvLauncher",
+      "stars": 401,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-21T03:18:03Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "WrongStack/WrongStack",
+      "url": "https://github.com/WrongStack/WrongStack",
+      "stars": 387,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T10:26:33Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "playbridgeapp/playbridge",
+      "url": "https://github.com/playbridgeapp/playbridge",
+      "stars": 368,
+      "license": "MPL-2.0",
+      "pushed_at": "2026-10-21T10:06:45Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "NousResearch/hermes-official-plugins",
+      "url": "https://github.com/NousResearch/hermes-official-plugins",
+      "stars": 354,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:36:37Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "intent-hq/intent",
+      "url": "https://github.com/intent-hq/intent",
+      "stars": 349,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:40:37Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "tanaikech/taking-advantage-of-Web-Apps-with-google-apps-script",
+      "url": "https://github.com/tanaikech/taking-advantage-of-Web-Apps-with-google-apps-script",
+      "stars": 345,
+      "license": "MIT",
+      "pushed_at": "2025-07-18T01:57:35Z",
+      "decision": "rejected",
+      "reasons": [
+        "not updated in 180 days"
+      ]
+    },
+    {
+      "repository": "brycewang-stanford/StatsPAI",
+      "url": "https://github.com/brycewang-stanford/StatsPAI",
+      "stars": 343,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:39:59Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "aqua5230/usage",
+      "url": "https://github.com/aqua5230/usage",
+      "stars": 341,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-10-21T09:55:55Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "mihirgupta0900/tv-home",
+      "url": "https://github.com/mihirgupta0900/tv-home",
+      "stars": 334,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-18T20:15:22Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "Licoy/Quosparr",
+      "url": "https://github.com/Licoy/Quosparr",
+      "stars": 298,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-10-21T11:30:01Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "pqpo/pragma",
+      "url": "https://github.com/pqpo/pragma",
+      "stars": 252,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-10-21T11:40:37Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "VortXTV/VortX",
+      "url": "https://github.com/VortXTV/VortX",
+      "stars": 240,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-21T11:38:19Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "screentinker/screentinker",
+      "url": "https://github.com/screentinker/screentinker",
+      "stars": 234,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T05:39:53Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "clearcotelabs/clearcote-browser",
+      "url": "https://github.com/clearcotelabs/clearcote-browser",
+      "stars": 216,
+      "license": "BSD-3-CLAUSE",
+      "pushed_at": "2026-10-21T11:37:57Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "Arnon-hs/open-source",
+      "url": "https://github.com/Arnon-hs/open-source",
+      "stars": 211,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:27:57Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "xiazheteng8/SmartTV-Toolkit",
+      "url": "https://github.com/xiazheteng8/SmartTV-Toolkit",
+      "stars": 210,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-19T08:51:47Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence",
+        "description missing"
+      ]
+    },
+    {
+      "repository": "chaitin/OctoBus",
+      "url": "https://github.com/chaitin/OctoBus",
+      "stars": 203,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-21T11:31:13Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "yuluoos/TVBox-tvs",
+      "url": "https://github.com/yuluoos/TVBox-tvs",
+      "stars": 194,
+      "license": "MIT",
+      "pushed_at": "2026-10-20T18:18:29Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "hxreborn/morphe-patches",
+      "url": "https://github.com/hxreborn/morphe-patches",
+      "stars": 186,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-21T04:31:31Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "edgehero/pi-dispatch",
+      "url": "https://github.com/edgehero/pi-dispatch",
+      "stars": 184,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:40:01Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "szymdzum/browser-debugger-cli",
+      "url": "https://github.com/szymdzum/browser-debugger-cli",
+      "stars": 178,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T09:43:02Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "ventic/ventic",
+      "url": "https://github.com/ventic/ventic",
+      "stars": 178,
+      "license": "MIT",
+      "pushed_at": "2026-10-20T11:55:16Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "mazer666/PhairPlay",
+      "url": "https://github.com/mazer666/PhairPlay",
+      "stars": 177,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-09T21:10:38Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "ever-works/ever-works",
+      "url": "https://github.com/ever-works/ever-works",
+      "stars": 171,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-10-21T11:39:58Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "brunochanrio/DangoPlayer",
+      "url": "https://github.com/brunochanrio/DangoPlayer",
+      "stars": 170,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-11T21:19:39Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "mclhm8182/tvhome-zh",
+      "url": "https://github.com/mclhm8182/tvhome-zh",
+      "stars": 164,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:22:56Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "juspay/neurolink",
+      "url": "https://github.com/juspay/neurolink",
+      "stars": 157,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:31:56Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "gug007/lpm",
+      "url": "https://github.com/gug007/lpm",
+      "stars": 154,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:32:53Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "tornikebolokadze1-cyber/awesome-ai-pulse-georgia",
+      "url": "https://github.com/tornikebolokadze1-cyber/awesome-ai-pulse-georgia",
+      "stars": 152,
+      "license": "CC0-1.0",
+      "pushed_at": "2026-10-21T09:55:46Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "niubihu1/tvbox",
+      "url": "https://github.com/niubihu1/tvbox",
+      "stars": 147,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-20T22:59:47Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "ELowry/DNSToggle",
+      "url": "https://github.com/ELowry/DNSToggle",
+      "stars": 143,
+      "license": "MIT",
+      "pushed_at": "2026-10-20T19:36:16Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "aldrinzigmundv/digilogtv",
+      "url": "https://github.com/aldrinzigmundv/digilogtv",
+      "stars": 142,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-03-29T04:49:15Z",
+      "decision": "rejected",
+      "reasons": [
+        "not updated in 180 days"
+      ]
+    },
+    {
+      "repository": "Mephiles/torntools_extension",
+      "url": "https://github.com/Mephiles/torntools_extension",
+      "stars": 141,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-21T09:43:50Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "ldbumble/taskuary",
+      "url": "https://github.com/ldbumble/taskuary",
+      "stars": 140,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:39:48Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "vgrichina/berrry-wine",
+      "url": "https://github.com/vgrichina/berrry-wine",
+      "stars": 133,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:26:59Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "linny006/trending-claude-skills",
+      "url": "https://github.com/linny006/trending-claude-skills",
+      "stars": 129,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:30:13Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "Manuito83/torn-pda",
+      "url": "https://github.com/Manuito83/torn-pda",
+      "stars": 129,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-15T17:27:00Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "AgustiPuigserver/opus-prompt-architect",
+      "url": "https://github.com/AgustiPuigserver/opus-prompt-architect",
+      "stars": 126,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T09:55:05Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "opengeos/solara-geospatial",
+      "url": "https://github.com/opengeos/solara-geospatial",
+      "stars": 125,
+      "license": "MIT",
+      "pushed_at": "2023-09-08T22:06:42Z",
+      "decision": "rejected",
+      "reasons": [
+        "not updated in 180 days"
+      ]
+    },
+    {
+      "repository": "willdady/platypus",
+      "url": "https://github.com/willdady/platypus",
+      "stars": 123,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T10:35:59Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "heavenaruba/codified-prompt-rule-engine",
+      "url": "https://github.com/heavenaruba/codified-prompt-rule-engine",
+      "stars": 123,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T09:54:17Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "dhasap/dhanytv",
+      "url": "https://github.com/dhasap/dhanytv",
+      "stars": 121,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T02:57:59Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "nexscope-ai/ecommerce-ai-tools",
+      "url": "https://github.com/nexscope-ai/ecommerce-ai-tools",
+      "stars": 120,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:37:38Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "mannychen0225/Agent-Hive-Workbench",
+      "url": "https://github.com/mannychen0225/Agent-Hive-Workbench",
+      "stars": 120,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T10:59:00Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "withmarfa/marfa",
+      "url": "https://github.com/withmarfa/marfa",
+      "stars": 117,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:36:13Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "Porabuild/Poracode",
+      "url": "https://github.com/Porabuild/Poracode",
+      "stars": 116,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:22:20Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "tsaijamey/frago",
+      "url": "https://github.com/tsaijamey/frago",
+      "stars": 114,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-10-21T11:37:42Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "dat999zx/knowl",
+      "url": "https://github.com/dat999zx/knowl",
+      "stars": 113,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:32:36Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "futuregene/future-os",
+      "url": "https://github.com/futuregene/future-os",
+      "stars": 111,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:32:27Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "op7418/guizang-tv",
+      "url": "https://github.com/op7418/guizang-tv",
+      "stars": 111,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T09:38:36Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "NyanTV/NyanTV",
+      "url": "https://github.com/NyanTV/NyanTV",
+      "stars": 111,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-06-28T01:41:38Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "YuSheng-Jack/Entryway_Release",
+      "url": "https://github.com/YuSheng-Jack/Entryway_Release",
+      "stars": 110,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T06:23:09Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "nyancodeid/iro",
+      "url": "https://github.com/nyancodeid/iro",
+      "stars": 107,
+      "license": "MIT",
+      "pushed_at": "2023-03-04T05:30:11Z",
+      "decision": "rejected",
+      "reasons": [
+        "not updated in 180 days"
+      ]
+    },
+    {
+      "repository": "papi-ux/nova",
+      "url": "https://github.com/papi-ux/nova",
+      "stars": 106,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-21T11:26:06Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    },
+    {
+      "repository": "abduznik/portfolio-dumper",
+      "url": "https://github.com/abduznik/portfolio-dumper",
+      "stars": 102,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:35:25Z",
+      "decision": "dry-run candidate",
+      "reasons": []
+    }
+  ],
+  "warning": "Metadata screening is not a security audit. Never run candidate code without independent review."
+}
