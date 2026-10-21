@@ -17,6 +17,7 @@ Workflow buttons link to GitHub Actions; GitHub requires an authenticated confir
 <a href="https://github.com/NayumAhmed?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-ALL%20PROJECTS-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Explore all projects"/></a>
 <a href="https://github.com/NayumAhmed/NayumAhmed/blob/main/REPOSITORY_CATALOG.md"><img src="https://img.shields.io/badge/OPEN-MASTER%20CATALOGUE-0F766E?style=for-the-badge&logo=bookstack&logoColor=white" alt="Open master catalogue"/></a>
 <a href="https://github.com/NayumAhmed/NayumAhmed/actions/workflows/repository-discovery.yml"><img src="https://img.shields.io/badge/⚡%20DISCOVER%20%26%20ADD-REPOSITORIES-F97316?style=for-the-badge&logo=githubactions&logoColor=white" alt="Discover and add repositories"/></a>
+<a href="https://github.com/NayumAhmed/NayumAhmed/actions/workflows/game-port-library.yml"><img src="https://img.shields.io/badge/🎮%20REFRESH%20GAME%20PORTS-UPDATE%20LIBRARY-DC2626?style=for-the-badge&logo=githubactions&logoColor=white" alt="Refresh PC game-port library"/></a>
 
 <br/><br/>
 
@@ -136,11 +137,14 @@ Use the catalogue's repository descriptions and source links to confirm each pro
 <div align="center">
 
 <a href="https://github.com/NayumAhmed/NayumAhmed/actions/workflows/repository-discovery.yml"><img src="https://img.shields.io/badge/OPEN%20WORKFLOW-RUN%20DISCOVERY-DB2777?style=for-the-badge&logo=githubactions&logoColor=white" alt="Open workflow to run discovery"/></a>
+<a href="https://github.com/NayumAhmed/NayumAhmed/actions/workflows/game-port-library.yml"><img src="https://img.shields.io/badge/🎮%20REFRESH%20GAME%20PORTS-UPDATE%20LIBRARY-DC2626?style=for-the-badge&logo=githubactions&logoColor=white" alt="Refresh PC game-port library"/></a>
 <a href="https://github.com/NayumAhmed/NayumAhmed/actions"><img src="https://img.shields.io/badge/RUN%20HISTORY-VIEW%20LOGS-334155?style=for-the-badge&logo=github" alt="View workflow run history"/></a>
 
 </div>
 
 ### Run it from this page
+
+Use the orange button to discover eligible open-source repositories and request forks. Use the red **REFRESH GAME PORTS** button to independently refresh the PC game-port directory in the Arcade Orbit repository. The two workflows are separate so game-library refresh failures cannot break repository discovery.
 
 1. Tap **OPEN WORKFLOW / RUN DISCOVERY**.
 2. On GitHub Actions, tap **Run workflow**.
