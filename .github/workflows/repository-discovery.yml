@@ -37,7 +37,7 @@ jobs:
           WEEKLY_FORK_LIMIT: "10"
           MIN_STARS: "100"
           MAX_PUSH_AGE_DAYS: "180"
-          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'true' }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
         run: python scripts/repo_discovery.py
       - name: Upload discovery report
         if: always()
