@@ -87,6 +87,18 @@ I'm Nayum. I use GitHub to explore ideas, build practical projects, learn from o
 
 ---
 
+## 🗂️ Repository catalogue
+
+Browse the central index of projects and automatically discovered forks, including upstream sources, licences, languages, and last-updated metadata.
+
+<div align="center">
+
+<a href="https://github.com/NayumAhmed/NayumAhmed/blob/main/REPOSITORY_CATALOG.md"><img src="https://img.shields.io/badge/OPEN-REPOSITORY%20CATALOGUE-0F766E?style=for-the-badge&logo=github&logoColor=white" alt="Open repository catalogue"/></a>
+
+</div>
+
+---
+
 ## 🧭 Quick navigation
 
 <div align="center">
