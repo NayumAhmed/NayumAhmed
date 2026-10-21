@@ -26,6 +26,27 @@ Workflow buttons link to GitHub Actions; GitHub requires an authenticated confir
 
 ---
 
+## 📈 Live repository dashboard
+
+A snapshot of your GitHub inventory and the latest completed discovery workflow. This panel is automatically refreshed by the discovery workflow.
+
+<!-- REPOSITORY_DASHBOARD_START -->
+<div align="center">
+
+| 📦 Repositories in account | 🍴 Forks | 🛠️ Original projects | ⚙️ Last completed discovery run |
+|:---:|:---:|:---:|:---:|
+| **Loading on next workflow run** | **—** | **—** | **Not refreshed yet** |
+
+<a href="https://github.com/NayumAhmed?tab=repositories"><img src="https://img.shields.io/badge/VIEW-REPOSITORIES-2563EB?style=for-the-badge&logo=github" alt="View repositories"/></a>
+<a href="https://github.com/NayumAhmed/NayumAhmed/actions/workflows/repository-discovery.yml"><img src="https://img.shields.io/badge/DISCOVERY-WORKFLOW-DB2777?style=for-the-badge&logo=githubactions" alt="Open discovery workflow"/></a>
+
+<sub>This panel is refreshed automatically when the workflow runs.</sub>
+
+</div>
+<!-- REPOSITORY_DASHBOARD_END -->
+
+---
+
 ## 🧭 Your dashboard
 
 <div align="center">
