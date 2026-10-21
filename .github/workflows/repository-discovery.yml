@@ -1,0 +1,60 @@
+name: Repository Discovery and Safe Forks
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview only (true) or request forks (false)"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+  schedule:
+    - cron: "30 4 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repository-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out automation repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Discover and evaluate candidates
+        env:
+          GITHUB_TOKEN: ${{ secrets.FORK_AUTOMATION_TOKEN }}
+          GITHUB_OWNER: NayumAhmed
+          WEEKLY_FORK_LIMIT: "10"
+          MIN_STARS: "100"
+          MAX_PUSH_AGE_DAYS: "180"
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'true' }}
+        run: python scripts/repo_discovery.py
+      - name: Upload discovery report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: repository-discovery-report
+          path: reports/
+          if-no-files-found: warn
+      - name: Commit report
+        if: success()
+        run: |
+          if [ -d reports ] && [ -n "$(find reports -maxdepth 1 -type f -name '*.json' -print -quit)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add reports/
+            if ! git diff --cached --quiet; then
+              git commit -m "Add repository discovery report"
+              git push
+            fi
+          fi
