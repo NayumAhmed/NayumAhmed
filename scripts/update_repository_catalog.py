@@ -85,7 +85,7 @@ def main():
         "",
         f"> Automatically generated from the repositories owned by **{OWNER}**. Last refreshed: {now}.",
         "",
-        f"**Total repositories: {len(repos)}** · **Forks: {fork_count}** · **Original projects: {original_count}** · [Open all repositories](https://github.com/{OWNER}?tab=repositories) · [Discovery workflow](https://github.com/{PROFILE_REPO}/actions/workflows/repository-discovery.yml)",
+        f"**Total repositories: {len(repos)}** · **Forks: {fork_count}** · **Standalone repositories: {original_count}** · [Open all repositories](https://github.com/{OWNER}?tab=repositories) · [Discovery workflow](https://github.com/{PROFILE_REPO}/actions/workflows/repository-discovery.yml)",
         "",
         "This catalogue lists repository metadata only. A fork is not a security review; inspect its source, dependencies, licence, and permissions before running code.",
         "",
@@ -118,7 +118,7 @@ def main():
     dashboard = f"""<!-- REPOSITORY_DASHBOARD_START -->
 <div align="center">
 
-| 📦 Repositories in account | 🍴 Forks | 🛠️ Original projects | ⚙️ Last completed discovery run |
+| 📦 Repositories in account | 🍴 Forks | 🛠️ Standalone repositories | ⚙️ Last completed discovery run |
 |:---:|:---:|:---:|:---:|
 | <strong>{len(repos)}</strong> | <strong>{fork_count}</strong> | <strong>{original_count}</strong> | <a href="{run_url}">{esc(run_status)}</a><br/><sub>{esc(run_time)}</sub> |
 
