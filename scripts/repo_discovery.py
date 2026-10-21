@@ -59,10 +59,26 @@ def main():
             if full and full not in existing:
                 candidates[full] = repo
         time.sleep(0.25)
+    # Enforce a rolling seven-day cap using committed reports from previous runs.
+    os.makedirs("reports", exist_ok=True)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+    prior_requests = 0
+    for filename in os.listdir("reports"):
+        if not filename.endswith(".json"):
+            continue
+        try:
+            with open(os.path.join("reports", filename), encoding="utf-8") as previous_file:
+                previous = json.load(previous_file)
+            generated = datetime.fromisoformat(previous.get("generated_at_utc", "").replace("Z", "+00:00"))
+            if generated >= cutoff:
+                prior_requests += int(previous.get("fork_requests_accepted", 0))
+        except Exception:
+            continue
+    remaining = max(0, LIMIT - prior_requests)
     ranked = sorted(candidates.values(), key=lambda r:(r.get("stargazers_count",0),r.get("updated_at","")), reverse=True)
     report, requested = [], 0
     for repo in ranked:
-        if requested >= LIMIT:
+        if requested >= remaining:
             break
         source_owner = repo.get("owner",{}).get("login","")
         name = repo.get("name","")
@@ -98,9 +114,9 @@ def main():
             time.sleep(1)
         report.append(item)
     os.makedirs("reports",exist_ok=True)
-    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M-%S")
     with open(f"reports/discovery-{stamp}.json","w",encoding="utf-8") as f:
-        json.dump({"generated_at_utc":datetime.now(timezone.utc).isoformat(),"owner":OWNER,"dry_run":DRY_RUN,"weekly_fork_limit":LIMIT,"fork_requests_accepted":requested,"topics":TOPICS,"minimum_stars":MIN_STARS,"max_push_age_days":MAX_AGE,"results":report,"warning":"Metadata screening is not a security audit. Never run candidate code without independent review."},f,indent=2)
+        json.dump({"generated_at_utc":datetime.now(timezone.utc).isoformat(),"owner":OWNER,"dry_run":DRY_RUN,"weekly_fork_limit":LIMIT,"prior_requests_in_rolling_week":prior_requests,"remaining_allowance_at_start":remaining,"fork_requests_accepted":requested,"topics":TOPICS,"minimum_stars":MIN_STARS,"max_push_age_days":MAX_AGE,"results":report,"warning":"Metadata screening is not a security audit. Never run candidate code without independent review."},f,indent=2)
     print(f"Reviewed {len(report)} candidates; accepted fork requests: {requested}; dry run: {DRY_RUN}")
 
 if __name__ == "__main__":
