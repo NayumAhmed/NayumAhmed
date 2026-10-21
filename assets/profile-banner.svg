@@ -40,6 +40,74 @@
   <path d="M760 0 L900 0 L620 360 L480 360 Z" fill="url(#sweep)" opacity=".22">
     <animateTransform attributeName="transform" type="translate" values="-500 0;900 0;-500 0" dur="14s" repeatCount="indefinite"/>
   </path>
+  <!-- Animated particle accelerator: electrons orbit, particles collide, energy flashes. -->
+  <g id="particle-accelerator">
+    <circle cx="990" cy="180" r="104" fill="#07111f" fill-opacity=".28" stroke="#67e8f9" stroke-opacity=".18" stroke-width="1.5"/>
+    <circle cx="990" cy="180" r="64" fill="url(#glow)" opacity=".9">
+      <animate attributeName="r" values="48;76;48" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;.9;.25" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Glowing nucleus with protons and neutrons -->
+    <g>
+      <circle cx="978" cy="170" r="14" fill="#fb7185" stroke="#fecdd3" stroke-width="2"/>
+      <circle cx="1001" cy="169" r="14" fill="#38bdf8" stroke="#bae6fd" stroke-width="2"/>
+      <circle cx="986" cy="191" r="14" fill="#f97316" stroke="#fed7aa" stroke-width="2"/>
+      <circle cx="1007" cy="192" r="13" fill="#a78bfa" stroke="#ddd6fe" stroke-width="2"/>
+      <circle cx="978" cy="170" r="4" fill="#fff"/>
+      <circle cx="1001" cy="169" r="4" fill="#fff"/>
+      <circle cx="986" cy="191" r="4" fill="#fff"/>
+      <circle cx="1007" cy="192" r="4" fill="#fff"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 993 181;360 993 181" dur="18s" repeatCount="indefinite"/>
+    </g>
+    <!-- Electrons travel around the nucleus on three tilted paths. -->
+    <g fill="none" stroke="#67e8f9" stroke-opacity=".7" stroke-width="1.8">
+      <ellipse cx="993" cy="181" rx="128" ry="48" transform="rotate(-28 993 181)"/>
+      <ellipse cx="993" cy="181" rx="128" ry="48" transform="rotate(48 993 181)" stroke="#c4b5fd"/>
+      <ellipse cx="993" cy="181" rx="128" ry="48" transform="rotate(90 993 181)" stroke="#38bdf8" stroke-opacity=".48"/>
+    </g>
+    <g>
+      <circle r="8" fill="#67e8f9" stroke="#ecfeff" stroke-width="2" filter="url(#blur)">
+        <animateMotion dur="4.4s" repeatCount="indefinite" path="M865 181 A128 48 -28 1 0 1121 181 A128 48 -28 1 0 865 181"/>
+      </circle>
+      <circle r="6" fill="#22d3ee" stroke="#ecfeff" stroke-width="1.5">
+        <animateMotion dur="3.6s" repeatCount="indefinite" path="M993 53 A128 48 48 1 0 993 309 A128 48 48 1 0 993 53"/>
+      </circle>
+      <circle r="6" fill="#c4b5fd" stroke="#fff" stroke-width="1.5">
+        <animateMotion dur="5.1s" repeatCount="indefinite" path="M993 53 A128 48 90 1 0 993 309 A128 48 90 1 0 993 53"/>
+      </circle>
+    </g>
+    <!-- Particle collision flash, expanding shock ring and thunder-like energy arcs. -->
+    <g transform="translate(993 181)">
+      <circle r="18" fill="#fff" opacity="0">
+        <animate attributeName="r" values="8;64;8" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.72;0" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="22" fill="none" stroke="#67e8f9" stroke-width="3" opacity="0">
+        <animate attributeName="r" values="12;94;12" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.85;0" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M-10 -30 L4 -8 L-5 3 L16 17 L5 2 L13 -10 Z" fill="#fff" stroke="#67e8f9" stroke-width="2" opacity="0">
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.12;.42;1" dur="3.2s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="scale" values=".5;.5;1.5;.5" dur="3.2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+      <path d="M870 104 L886 122 L876 135 L901 151 L891 131 L904 118" stroke="#67e8f9" opacity="0">
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.15;.4;1" dur="3.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M1080 224 L1065 242 L1078 253 L1051 270 L1062 248 L1050 236" stroke="#c4b5fd" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;.4;.55;1" dur="3.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M1090 112 L1102 126 L1093 137 L1114 150" stroke="#f0abfc" opacity="0">
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.2;.38;1" dur="2.7s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g fill="#e0f2fe">
+      <circle cx="893" cy="151" r="3"><animate attributeName="opacity" values="0;1;0" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="1082" cy="217" r="4"><animate attributeName="opacity" values="0;1;0" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="1044" cy="106" r="3"><animate attributeName="r" values="2;5;2" dur="2.5s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
   <g fill="#67e8f9">
     <circle cx="1090" cy="96" r="5"><animate attributeName="opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></circle>
     <circle cx="858" cy="220" r="4"><animate attributeName="r" values="3;5;3" dur="4s" repeatCount="indefinite"/></circle>
