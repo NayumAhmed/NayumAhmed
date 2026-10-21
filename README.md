@@ -10,6 +10,10 @@ Workflow buttons link to GitHub Actions; GitHub requires an authenticated confir
 
 <br/>
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&width=650&lines=Building+useful+things;Exploring+open-source+projects;Automating+repository+discovery;Learning+by+shipping" alt="Animated tagline: building, exploring, automating, learning"/>
+
+<br/>
+
 <a href="https://github.com/NayumAhmed?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-ALL%20PROJECTS-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Explore all projects"/></a>
 <a href="https://github.com/NayumAhmed/NayumAhmed/blob/main/REPOSITORY_CATALOG.md"><img src="https://img.shields.io/badge/OPEN-MASTER%20CATALOGUE-0F766E?style=for-the-badge&logo=bookstack&logoColor=white" alt="Open master catalogue"/></a>
 <a href="https://github.com/NayumAhmed/NayumAhmed/actions/workflows/repository-discovery.yml"><img src="https://img.shields.io/badge/⚡%20DISCOVER%20%26%20ADD-REPOSITORIES-F97316?style=for-the-badge&logo=githubactions&logoColor=white" alt="Discover and add repositories"/></a>
