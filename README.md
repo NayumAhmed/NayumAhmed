@@ -33,7 +33,7 @@ A snapshot of your GitHub inventory and the latest completed discovery workflow.
 <!-- REPOSITORY_DASHBOARD_START -->
 <div align="center">
 
-| 📦 Repositories in account | 🍴 Forks | 🛠️ Original projects | ⚙️ Last completed discovery run |
+| 📦 Repositories in account | 🍴 Forks | 🛠️ Standalone repositories | ⚙️ Last completed discovery run |
 |:---:|:---:|:---:|:---:|
 | <strong>14</strong> | <strong>12</strong> | <strong>2</strong> | <a href="https://github.com/NayumAhmed/NayumAhmed/actions/runs/39597509685">Success</a><br/><sub>2026-10-21 12:10 UTC</sub> |
 
