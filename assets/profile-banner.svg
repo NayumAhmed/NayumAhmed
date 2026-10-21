@@ -17,10 +17,10 @@
   <radialGradient id="glow"><stop stop-color="#22d3ee" stop-opacity=".32"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
   <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#bfdbfe" stroke-opacity=".08" stroke-width="1"/></pattern>
   <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
-  <clipPath id="clip"><rect width="1200" height="360" rx="28"/></clipPath>
+  
 </defs>
-<g clip-path="url(#clip)">
-  <rect width="1200" height="360" fill="url(#bg)"/>
+<g>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
   <rect width="1200" height="360" fill="url(#grid)"/>
   <circle cx="990" cy="180" r="220" fill="url(#glow)" filter="url(#blur)">
     <animate attributeName="r" values="190;235;190" dur="7s" repeatCount="indefinite"/>
