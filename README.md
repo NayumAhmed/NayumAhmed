@@ -1,121 +1,102 @@
-<!--
-GitHub profile portfolio README
-Tip: rename this repository to exactly "NayumAhmed" in Settings to show this README on your profile.
--->
+<!-- Profile README for github.com/NayumAhmed -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:2563EB,100:06B6D4&height=220&section=header&text=Nayum%20Ahmed&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Builder%20%7C%20Experimenter%20%7C%20Lifelong%20Learner&descAlignY=58&descSize=17" width="100%" alt="Colorful blue portfolio banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,35:1D4ED8,70:0891B2,100:67E8F9&height=230&section=header&text=Nayum%20Ahmed&fontSize=52&fontColor=FFFFFF&fontAlignY=36&desc=Building%20ideas%20into%20useful%20projects&descSize=18&descAlignY=58" width="100%" alt="Nayum Ahmed — developer portfolio banner"/>
 
-<h1>Hi there, I'm Nayum 👋</h1>
+<a href="https://github.com/NayumAhmed"><img src="https://img.shields.io/badge/GitHub-NayumAhmed-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://github.com/NayumAhmed?tab=repositories"><img src="https://img.shields.io/badge/Explore-Projects-2563EB?style=for-the-badge&logo=github" alt="Explore projects"/></a>
+<a href="https://github.com/NayumAhmed?tab=stars"><img src="https://img.shields.io/badge/Discover-Starred%20Repos-F59E0B?style=for-the-badge&logo=github" alt="Starred repositories"/></a>
 
-<p>
-  <b>Welcome to my GitHub corner.</b><br/>
-  I enjoy exploring ideas, building useful projects, and learning by making things.
-</p>
+<br/>
 
-<p>
-  <a href="https://github.com/NayumAhmed"><img src="https://img.shields.io/badge/GitHub-NayumAhmed-181717?style=for-the-badge&logo=github" alt="GitHub profile"/></a>
-  <a href="https://github.com/NayumAhmed?tab=repositories"><img src="https://img.shields.io/badge/Explore-My%20Repositories-2563EB?style=for-the-badge&logo=github" alt="Explore repositories"/></a>
-</p>
+*Curious by nature. Practical by design. Always learning.*
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## 👋 Hello, I'm Nayum
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Welcome to my corner of GitHub! I enjoy exploring technology, experimenting with ideas, and turning useful concepts into projects. This page brings together a few things I'm building and learning.
 
-### 🎮 Arcade Orbit
-**Browser gaming project**
+- 🧪 **Explore:** try ideas, tools, and open-source projects.
+- 🛠️ **Build:** create practical projects and improve them over time.
+- 🌱 **Learn:** document discoveries and keep getting better.
 
-A home for browser-based game experiments and an easy way to explore games.
+## 🚀 Featured projects
 
-[**Open repository →**](https://github.com/NayumAhmed/arcade-orbit47)
+<div align="center">
 
-</td>
-<td width="50%" valign="top">
+<a href="https://github.com/NayumAhmed/arcade-orbit47">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=arcade-orbit47&theme=tokyonight&hide_border=true" alt="Arcade Orbit repository card"/>
+</a>
+<a href="https://github.com/NayumAhmed/cleanyourtv">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=cleanyourtv&theme=tokyonight&hide_border=true" alt="Clean Your TV repository card"/>
+</a>
+<a href="https://github.com/NayumAhmed/reverse-skill">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=reverse-skill&theme=tokyonight&hide_border=true" alt="Reverse Skill repository card"/>
+</a>
 
-### 📺 Clean Your TV
-**TV cleanup project**
+</div>
 
-A project focused on helping users access useful TV-cleaning resources and tools.
+| Project | What it is |
+|---|---|
+| 🎮 [Arcade Orbit](https://github.com/NayumAhmed/arcade-orbit47) | Browser-games project and game discovery experience. |
+| 📺 [Clean Your TV](https://github.com/NayumAhmed/cleanyourtv) | TV-cleaning project and related tools/resources. |
+| 🧰 [Reverse Skill](https://github.com/NayumAhmed/reverse-skill) | A separate repository for developer tooling and learning. |
 
-[**Open repository →**](https://github.com/NayumAhmed/cleanyourtv)
+<div align="center">
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<a href="https://github.com/NayumAhmed?tab=repositories"><img src="https://img.shields.io/badge/See%20all%20repositories-→-0EA5E9?style=for-the-badge" alt="See all repositories"/></a>
 
-### 🧰 Reverse Skill
-**Developer tooling / learning**
-
-An open-source project I'm exploring and maintaining in its own separate repository.
-
-[**Open repository →**](https://github.com/NayumAhmed/reverse-skill)
-
-</td>
-<td width="50%" valign="top">
-
-### 🧭 Explore Everything
-Browse my repositories to see other experiments, source code, and future projects.
-
-[**View all repositories →**](https://github.com/NayumAhmed?tab=repositories)
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
-## 🛠️ What you'll find here
-
-- **Project experiments** — ideas turned into practical builds.
-- **Learning in public** — trying tools, solving problems, and improving through iteration.
-- **Open-source exploration** — discovering projects, documenting work, and making useful improvements.
-
-## 📊 GitHub at a glance
+## 📈 GitHub dashboard
 
 <div align="center">
 
 <a href="https://github.com/NayumAhmed">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=NayumAhmed&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight" alt="GitHub stats for NayumAhmed"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NayumAhmed&show_icons=true&include_all_commits=true&rank_icon=github&theme=tokyonight&hide_border=true" alt="GitHub statistics"/>
 </a>
 <a href="https://github.com/NayumAhmed">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NayumAhmed&layout=compact&hide_border=true&theme=tokyonight" alt="Most used languages"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NayumAhmed&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Most used programming languages"/>
 </a>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=NayumAhmed&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" width="70%"/>
+<img src="https://streak-stats.demolab.com?user=NayumAhmed&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" width="80%"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NayumAhmed&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="GitHub contribution activity graph"/>
 
 </div>
 
-> Statistics and language charts are generated by third-party services and may occasionally be unavailable or delayed.
+<sub>Stats, language estimates, and activity graphs are provided by third-party services. They can load slowly or be temporarily unavailable; language percentages reflect repository contents, not necessarily overall skill level.</sub>
 
 ---
 
-## 🔗 Quick links
+## 🧭 Find your way around
 
 <div align="center">
 
-[![Repositories](https://img.shields.io/badge/Repositories-Browse-2563EB?style=for-the-badge&logo=github)](https://github.com/NayumAhmed?tab=repositories)
-[![Stars](https://img.shields.io/badge/Starred%20Projects-Explore-F59E0B?style=for-the-badge&logo=github)](https://github.com/NayumAhmed?tab=stars)
-[![Activity](https://img.shields.io/badge/Recent%20Activity-View-0891B2?style=for-the-badge&logo=github)](https://github.com/NayumAhmed?tab=overview)
+<a href="https://github.com/NayumAhmed?tab=repositories"><img src="https://img.shields.io/badge/📁%20Repositories-Browse-2563EB?style=for-the-badge" alt="Browse repositories"/></a>
+<a href="https://github.com/NayumAhmed?tab=stars"><img src="https://img.shields.io/badge/⭐%20Starred-Discover-F59E0B?style=for-the-badge" alt="Discover starred projects"/></a>
+<a href="https://github.com/NayumAhmed?tab=overview"><img src="https://img.shields.io/badge/🗓️%20Activity-Explore-0891B2?style=for-the-badge" alt="Explore activity"/></a>
 
 </div>
 
----
+## 🤝 Let's build and learn
+
+Have an idea, suggestion, or improvement for one of the projects? Open an issue or start a discussion in the relevant repository. Feedback and thoughtful contributions are welcome.
 
 <div align="center">
 
-**Thanks for stopping by!** ✨  
-If a project interests you, explore it, try it out, and share feedback through GitHub issues.
+**Thanks for visiting!** ✨
 
-<sub>Built with Markdown, badges, and linked project visuals.</sub>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:67E8F9,50:0891B2,100:111827&height=100&section=footer" width="100%" alt="Blue and cyan footer banner"/>
 
 </div>
