@@ -39,6 +39,12 @@ jobs:
           MAX_PUSH_AGE_DAYS: "180"
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
         run: python scripts/repo_discovery.py
+      - name: Refresh master repository catalogue
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.FORK_AUTOMATION_TOKEN }}
+          GITHUB_OWNER: NayumAhmed
+        run: python scripts/update_repository_catalog.py
       - name: Upload discovery report
         if: always()
         uses: actions/upload-artifact@v4
@@ -52,7 +58,7 @@ jobs:
           if [ -d reports ] && [ -n "$(find reports -maxdepth 1 -type f -name '*.json' -print -quit)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add reports/
+            git add reports/ REPOSITORY_CATALOG.md
             if ! git diff --cached --quiet; then
               git commit -m "Add repository discovery report"
               git push
