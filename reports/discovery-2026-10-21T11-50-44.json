@@ -1,0 +1,145 @@
+{
+  "generated_at_utc": "2026-10-21T11:50:44.995887+00:00",
+  "owner": "NayumAhmed",
+  "dry_run": false,
+  "weekly_fork_limit": 10,
+  "prior_requests_in_rolling_week": 0,
+  "remaining_allowance_at_start": 10,
+  "fork_requests_accepted": 10,
+  "topics": [
+    "ai-tools",
+    "browser-games",
+    "developer-tools",
+    "android-tv",
+    "google-tv",
+    "ai-agents",
+    "web-apps"
+  ],
+  "minimum_stars": 100,
+  "max_push_age_days": 180,
+  "results": [
+    {
+      "repository": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "stars": 353305,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:49:57Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/rea"
+    },
+    {
+      "repository": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "stars": 105446,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T09:53:34Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/paperclip"
+    },
+    {
+      "repository": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "stars": 92594,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:48:29Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/ragflow"
+    },
+    {
+      "repository": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "stars": 68847,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:48:46Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/hyperframes"
+    },
+    {
+      "repository": "agno-agi/agno",
+      "url": "https://github.com/agno-agi/agno",
+      "stars": 42849,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:45:34Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/agno"
+    },
+    {
+      "repository": "medusajs/medusa",
+      "url": "https://github.com/medusajs/medusa",
+      "stars": 36834,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T11:46:54Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "yuliskov/SmartTube",
+      "url": "https://github.com/yuliskov/SmartTube",
+      "stars": 35260,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T00:56:10Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/SmartTube"
+    },
+    {
+      "repository": "Twigpine/openclaude",
+      "url": "https://github.com/Twigpine/openclaude",
+      "stars": 34061,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-21T10:31:39Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "nanocoai/nanoclaw",
+      "url": "https://github.com/nanocoai/nanoclaw",
+      "stars": 30978,
+      "license": "MIT",
+      "pushed_at": "2026-10-21T11:48:57Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/nanoclaw"
+    },
+    {
+      "repository": "kestra-io/kestra",
+      "url": "https://github.com/kestra-io/kestra",
+      "stars": 29919,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:48:27Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/kestra"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "stars": 28625,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T11:49:33Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/qwen-code"
+    },
+    {
+      "repository": "youhunwl/TVAPP",
+      "url": "https://github.com/youhunwl/TVAPP",
+      "stars": 25585,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-21T06:30:41Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/TVAPP"
+    }
+  ],
+  "warning": "Metadata screening is not a security audit. Never run candidate code without independent review."
+}
