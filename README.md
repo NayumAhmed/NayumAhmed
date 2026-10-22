@@ -47,6 +47,7 @@ GitHub profile READMEs support Markdown, images, GIFs and SVGs, but do not run c
 <a href="https://github.com/NayumAhmed/arcade-orbit47"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=arcade-orbit47&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=a78bfa" alt="Arcade Orbit project card"/></a>
 <a href="https://github.com/NayumAhmed/cleanyourtv"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=cleanyourtv&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=a78bfa" alt="Clean Your TV project card"/></a>
 <a href="https://github.com/NayumAhmed/reverse-skill"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=reverse-skill&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=a78bfa" alt="Reverse Skill project card"/></a>
+<a href="https://github.com/NayumAhmed/pentagi"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=pentagi&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=a78bfa" alt="Pentagi project card"/></a>
 
 </div>
 
@@ -58,6 +59,7 @@ GitHub profile READMEs support Markdown, images, GIFs and SVGs, but do not run c
 | 🎮 **Arcade Orbit** | Browser-games project and game-port library | [Open project](https://github.com/NayumAhmed/arcade-orbit47) |
 | 📺 **Clean Your TV** | Android TV / Google TV cleanup project | [Open project](https://github.com/NayumAhmed/cleanyourtv) |
 | 🧰 **Reverse Skill** | AI-assisted security workflow and skills | [Open project](https://github.com/NayumAhmed/reverse-skill) |
+| 🛡️ **Pentagi** | AI-powered penetration-testing platform | [Open project](https://github.com/NayumAhmed/pentagi) |
 | 🗂️ **Profile & Automation** | Repository catalogue and discovery workflows | [Open project](https://github.com/NayumAhmed/NayumAhmed) |
 
 </details>
