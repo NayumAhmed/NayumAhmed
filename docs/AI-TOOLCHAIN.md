@@ -107,3 +107,53 @@ These are the user's fork URLs where available; consult each README for its upst
 ## Important separation rule
 
 Do not merge third-party code into this profile repository, do not overwrite upstream forks as part of this setup, and keep the Arcade Orbit, Reverse Skill, and PentAGI projects independent. This document is an integration guide, not an automatic installer.
+
+
+## Expanded capability map (curated, not a pile of overlapping tools)
+
+The goal is broad capability with a small, maintainable core. These projects are candidates to evaluate and add to the account through the repository-discovery workflow; they are not installed or connected merely by listing them here.
+
+### Highest-priority additions to evaluate
+
+| Capability | Repository | Why it earns a place | Integration note |
+|---|---|---|---|
+| Browser control and UI testing | [Microsoft Playwright MCP](https://github.com/microsoft/playwright-mcp) | Structured browser interaction, page inspection, and repeatable tests | Prefer this over adding multiple browser MCPs at once |
+| Chrome debugging | [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Console, network, performance, and browser debugging | Add only when browser debugging is a real need |
+| Browser agent | [Browser Use](https://github.com/browser-use/browser-use) | Agent-driven browsing for sites where permitted | Separate runtime; review authentication and action permissions |
+| Agent workflow automation | [n8n](https://github.com/n8n-io/n8n) | Connect APIs and schedule repeatable workflows | Self-hosting and credentials require configuration |
+| MCP server development | [FastMCP](https://github.com/jlowin/fastmcp) | Build and test small custom MCP tools | Useful for bridging specific APIs, not a general model upgrade |
+| Current code documentation | [Context7](https://github.com/upstash/context7) | Retrieve version-relevant library documentation | Use through a compatible MCP client |
+| Structured web extraction | [Scrapling](https://github.com/D4Vinci/Scrapling) | Alternative extraction/crawling engine | Evaluate alongside Crawl4AI; don't run both without a reason |
+| Agent evaluation | [promptfoo](https://github.com/promptfoo/promptfoo) | Test prompts, model outputs, and LLM workflows | Keep test datasets free of secrets and private work data |
+| Local model runtime | [Ollama](https://github.com/ollama/ollama) | Run supported models locally where hardware allows | Local models have hardware and quality trade-offs |
+| Agent framework | [Pydantic AI](https://github.com/pydantic/pydantic-ai) | Build typed, testable Python agents | Choose one main framework rather than collecting many |
+| Agent graph orchestration | [LangGraph](https://github.com/langchain-ai/langgraph) | Stateful multi-step agent workflows | Alternative to Pydantic AI; adopt only if graph orchestration is needed |
+| Sandboxed coding agent | [OpenHands](https://github.com/All-Hands-AI/OpenHands) | Coding tasks in an isolated agent environment | Keep separate from profile and production projects |
+
+### Already present in this account (reuse before adding duplicates)
+
+- Agent Reach, MCP Video Analyzer, YouTube Skills, Watch Video Skill
+- Playwright, Crawl4AI, OpenHands, and a general MCP servers collection
+- PentAGI, Reverse Skill, and Arcade Orbit remain separate projects
+
+Repository names can change and projects may have different licences, system requirements, or maintenance status. Before forking or deploying any candidate, check its official repository for recent activity, licence, security policy, supported runtime, required secrets, and installation instructions.
+
+## What "make ChatGPT capable of everything" realistically means
+
+A GitHub repository does not change the ChatGPT model or automatically grant this chat new tools. Capabilities become usable only when a supported host runs the software and exposes its tools to the model. For this account, the practical path is:
+
+1. Use the existing repository-discovery workflow to produce a report of candidate projects.
+2. Review the report for duplicates, licences, maintenance, platform fit, and security.
+3. Fork only the highest-value candidates within the workflow's 10-forks-per-week limit.
+4. Configure and test them on the Windows laptop or another supported host.
+5. Connect the running tools to a compatible agent client; check the current ChatGPT plan/workspace requirements separately before assuming direct ChatGPT integration is supported.
+
+The linked GitHub connector available in this chat can inspect and edit repository files, but it does not expose a fork-creation or workflow-dispatch action. Therefore, this update does not claim to have forked repositories or installed software. To run discovery, open [Repository Discovery and Safe Forks](https://github.com/NayumAhmed/NayumAhmed/actions/workflows/repository-discovery.yml), select **Run workflow**, first use `dry_run=true` to inspect candidates, and only then run with `dry_run=false` if the report looks right. The workflow's configured cap is 10 forks per week.
+
+## Security rules
+
+- Never put tokens, passwords, cookies, or private company data in source files, prompts, issues, or logs.
+- Use least-privilege tokens and separate test browser profiles.
+- Treat web pages, repository READMEs, downloaded scripts, and model outputs as untrusted input.
+- Require review before sending messages, submitting forms, deploying, deleting data, or making purchases.
+- Keep security-testing tools limited to systems you own or are explicitly authorised to test.
