@@ -157,3 +157,33 @@ The linked GitHub connector available in this chat can inspect and edit reposito
 - Treat web pages, repository READMEs, downloaded scripts, and model outputs as untrusted input.
 - Require review before sending messages, submitting forms, deploying, deleting data, or making purchases.
 - Keep security-testing tools limited to systems you own or are explicitly authorised to test.
+
+
+## Verified forks from the October 2026 discovery run
+
+The expected fork URLs from the discovery report were checked against GitHub repository metadata. All ten exist and report `fork: true`, with the following upstream parents. This verifies that the forks exist; it does not mean they are installed, secure, or connected to ChatGPT.
+
+| Your fork | Upstream | Suggested role | Priority |
+|---|---|---|---|
+| [rea](https://github.com/NayumAhmed/rea) | [morluto/rea](https://github.com/morluto/rea) | Agent-assisted reverse engineering | Specialist; isolate and only use on authorised targets |
+| [paperclip](https://github.com/NayumAhmed/paperclip) | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | Agent task/organisation management | Later; evaluate after the core agent works |
+| [ragflow](https://github.com/NayumAhmed/ragflow) | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | RAG/document knowledge retrieval | Useful if you need a searchable knowledge base |
+| [hyperframes](https://github.com/NayumAhmed/hyperframes) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | HTML-to-video rendering | Useful for generated training/video assets |
+| [agno](https://github.com/NayumAhmed/agno) | [agno-agi/agno](https://github.com/agno-agi/agno) | Agent framework/platform | Candidate framework; compare before choosing |
+| [SmartTube](https://github.com/NayumAhmed/SmartTube) | [yuliskov/SmartTube](https://github.com/yuliskov/SmartTube) | Android TV media client | Keep separate from the AI agent toolchain |
+| [nanoclaw](https://github.com/NayumAhmed/nanoclaw) | [nanocoai/nanoclaw](https://github.com/nanocoai/nanoclaw) | Containerised messaging/agent workflows | High caution; review integrations and permissions before connecting accounts |
+| [kestra](https://github.com/NayumAhmed/kestra) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | Workflow orchestration and scheduling | Later; heavier infrastructure than a simple local setup |
+| [qwen-code](https://github.com/NayumAhmed/qwen-code) | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | Terminal coding agent | Candidate coding interface; choose one primary coding agent |
+| [TVAPP](https://github.com/NayumAhmed/TVAPP) | [youhunwl/TVAPP](https://github.com/youhunwl/TVAPP) | Android TV app catalogue | Keep separate; inspect all APK sources carefully |
+
+### Recommended rollout order for this account
+
+Do not try to run all ten at once. The lowest-friction plan is:
+
+1. **First: existing video/research tools + one browser MCP.** Test MCP Video Analyzer, Agent Reach, and Playwright in one supported host. These map directly to video links, research, and browser tasks.
+2. **Second: Qwen Code or OpenHands, not both initially.** Pick one coding agent and test it in a disposable repository/branch.
+3. **Third: RAGFlow only if you need document retrieval**, or HyperFrames if the immediate goal is video generation.
+4. **Later: n8n/Kestra/Paperclip/Agno/NanoClaw** only when there is a specific workflow that justifies the operational complexity.
+5. **Keep Rea, SmartTube, TVAPP, PentAGI, Reverse Skill, and Arcade Orbit isolated** from the general agent runtime unless a specific authorised task calls for them.
+
+Before running any fork, read its installation guide and licence, check open issues and releases, use a disposable test environment, and never supply work credentials or personal account tokens until the need and permissions are understood.
