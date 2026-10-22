@@ -141,3 +141,26 @@ Have an idea, found a bug, or want to improve a project? Explore a repository, o
 **Thanks for visiting. Keep exploring. Keep building. Level up.** ✨
 
 </div>
+
+
+## 📈 Live repository dashboard
+
+Live snapshot of the repository inventory and latest completed discovery run.
+
+<!-- REPOSITORY_DASHBOARD_START -->
+<div align="center">
+
+| 📦 Repositories in account | 🍴 Forks | 🛠️ Standalone repositories | ⚙️ Last completed discovery run |
+|:---:|:---:|:---:|:---:|
+| <strong>18</strong> | <strong>15</strong> | <strong>3</strong> | <a href="https://github.com/NayumAhmed/NayumAhmed/actions/runs/39602460544">Success</a><br/><sub>2026-10-21 12:48 UTC</sub> |
+
+<a href="https://github.com/NayumAhmed?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-18-2563EB?style=for-the-badge&logo=github" alt="Repository count"/></a>
+<a href="https://github.com/NayumAhmed/NayumAhmed/actions/workflows/repository-discovery.yml"><img src="https://img.shields.io/badge/DISCOVERY-WORKFLOW-DB2777?style=for-the-badge&logo=githubactions" alt="Open discovery workflow"/></a>
+<a href="https://github.com/NayumAhmed/NayumAhmed/actions/runs/39602460544"><img src="https://img.shields.io/badge/LAST%20RUN-SUCCESS-0F766E?style=for-the-badge" alt="Last workflow result"/></a>
+
+<sub>Dashboard snapshot refreshed 2026-10-22 06:26 UTC. Repository count is read from GitHub's repository API. Last-run details are read from GitHub Actions.</sub>
+
+</div>
+<!-- REPOSITORY_DASHBOARD_END -->
+
+---
