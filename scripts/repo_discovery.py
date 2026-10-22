@@ -51,6 +51,7 @@ def main():
         sys.exit(2)
     own = get("/users/" + OWNER + "/repos", {"per_page":100,"type":"owner","sort":"updated"})
     existing = {r.get("full_name","").lower() for r in own if isinstance(r,dict)}
+    existing_names = {r.get("name","").lower() for r in own if isinstance(r,dict)}
     candidates = {}
     for topic in TOPICS:
         data = get("/search/repositories", {"q":f"topic:{topic} stars:>={MIN_STARS} archived:false fork:false","sort":"updated","order":"desc","per_page":30})
@@ -87,6 +88,7 @@ def main():
         lic = ((repo.get("license") or {}).get("spdx_id") or "NOASSERTION").upper()
         reasons = []
         if source_owner.lower() == OWNER.lower(): reasons.append("already owned")
+        if name.lower() in existing_names: reasons.append("repository name already exists in account; avoid duplicate fork")
         if repo.get("fork"): reasons.append("candidate is itself a fork")
         if repo.get("archived") or repo.get("disabled"): reasons.append("archived or disabled")
         if lic in DENY_LICENSES: reasons.append("no clear SPDX open-source licence")
