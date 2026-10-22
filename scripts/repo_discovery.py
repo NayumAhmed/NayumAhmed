@@ -78,8 +78,6 @@ def main():
     ranked = sorted(candidates.values(), key=lambda r:(r.get("stargazers_count",0),r.get("updated_at","")), reverse=True)
     report, requested = [], 0
     for repo in ranked:
-        if requested >= remaining:
-            break
         source_owner = repo.get("owner",{}).get("login","")
         name = repo.get("name","")
         full = repo.get("full_name","")
@@ -101,17 +99,20 @@ def main():
         if readme_status != 200: reasons.append("README not found")
         item = {"repository":full,"url":repo.get("html_url"),"stars":repo.get("stargazers_count",0),"license":lic,"pushed_at":repo.get("pushed_at"),"decision":"rejected" if reasons else ("dry-run candidate" if DRY_RUN else "pending fork"),"reasons":reasons}
         if not reasons and not DRY_RUN:
-            status, result = api(f"/repos/{source_owner}/{name}/forks", method="POST", payload={})
-            if status in (202,200):
-                requested += 1
-                item["decision"] = "fork request accepted (verify after GitHub processes it)"
-                item["expected_fork_url"] = f"https://github.com/{OWNER}/{name}"
-            elif status == 422 and "already exists" in str(result).lower():
-                item["decision"] = "skipped: fork already exists"
+            if requested >= remaining:
+                item["decision"] = "eligible but weekly fork allowance exhausted"
             else:
-                item["decision"] = f"fork failed HTTP {status}"
-                item["error"] = result.get("message","unknown error")
-            time.sleep(1)
+                status, result = api(f"/repos/{source_owner}/{name}/forks", method="POST", payload={})
+                if status in (202,200):
+                    requested += 1
+                    item["decision"] = "fork request accepted (verify after GitHub processes it)"
+                    item["expected_fork_url"] = f"https://github.com/{OWNER}/{name}"
+                elif status == 422 and "already exists" in str(result).lower():
+                    item["decision"] = "skipped: fork already exists"
+                else:
+                    item["decision"] = f"fork failed HTTP {status}"
+                    item["error"] = result.get("message","unknown error")
+                time.sleep(1)
         report.append(item)
     os.makedirs("reports",exist_ok=True)
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M-%S")
