@@ -66,6 +66,17 @@ GitHub profile READMEs support Markdown, images, GIFs and SVGs, but do not run c
 
 ---
 
+## 🧠 AI TOOLCHAIN
+
+Connect the projects into a practical workflow for video analysis, web research, browser testing, and coding-agent experiments.
+
+- [AI Toolchain Integration Guide](docs/AI-TOOLCHAIN.md) — setup, supported-client limitations, safe rollout, and acceptance checks.
+- [Agent Reach](https://github.com/NayumAhmed/Agent-Reach) · [Video Analyzer](https://github.com/NayumAhmed/mcp-video-analyzer) · [Playwright](https://github.com/NayumAhmed/playwright) · [OpenHands](https://github.com/NayumAhmed/OpenHands)
+
+> These repositories enhance separately configured agents; they do not automatically add tools to ChatGPT itself.
+
+---
+
 ## 🌌 ARCADE ORBIT — MAIN QUEST
 
 <div align="center">
