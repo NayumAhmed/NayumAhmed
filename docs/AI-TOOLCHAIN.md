@@ -187,3 +187,62 @@ Do not try to run all ten at once. The lowest-friction plan is:
 5. **Keep Rea, SmartTube, TVAPP, PentAGI, Reverse Skill, and Arcade Orbit isolated** from the general agent runtime unless a specific authorised task calls for them.
 
 Before running any fork, read its installation guide and licence, check open issues and releases, use a disposable test environment, and never supply work credentials or personal account tokens until the need and permissions are understood.
+
+
+## Practical Windows rollout: start with one coding agent
+
+Use this sequence on the Windows laptop. This guide does not install anything automatically; run commands yourself and inspect prompts before approving changes.
+
+### Phase 1 — Qwen Code (lowest-friction first test)
+
+Official documentation: [Qwen Code quickstart](https://qwenlm.github.io/qwen-code-docs/en/users/quickstart/) and [upstream repository](https://github.com/QwenLM/qwen-code).
+
+1. Open a normal PowerShell window (administrator rights should not be needed for a user-level install).
+2. Review the official installation instructions first. The current official quickstart documents this Windows installer command:
+
+   ```powershell
+   irm https://qwen-code-assets.oss-cn-hangzhou.aliyuncs.com/installation/install-qwen-standalone.ps1 | iex
+   ```
+
+   This executes a remote installer. If you prefer not to pipe a downloaded script directly into PowerShell, download the installer file from the official source, inspect it, and then run the local copy instead.
+3. Close and reopen PowerShell, then verify:
+
+   ```powershell
+   qwen --version
+   qwen
+   ```
+
+4. Complete authentication using the provider options shown by the CLI. Check the selected provider's price/usage limits before authorising paid requests. Do not paste credentials into this repository, chat messages, or source files.
+5. Start with a harmless read-only task in a disposable folder, such as asking it to explain a README. Do not give it your whole home folder or company documents.
+
+### Phase 2 — verify basic developer tools
+
+Run these commands and keep the output for troubleshooting:
+
+```powershell
+git --version
+python --version
+docker --version
+wsl --status
+```
+
+A missing command is not a failure of the AI setup; it simply means that prerequisite is not installed or not on PATH. Do not install Docker/WSL just to test Qwen Code.
+
+### Phase 3 — add browser and video tools only when the base agent works
+
+- Use one browser tool first: [Microsoft Playwright MCP](https://github.com/microsoft/playwright-mcp). Start with a local demo page or a site you own. Browser tools may access logged-in sessions, so use a separate browser profile without personal or work accounts for tests.
+- For video, use the existing [MCP Video Analyzer](https://github.com/NayumAhmed/mcp-video-analyzer) and [YouTube Skills](https://github.com/NayumAhmed/youtube-skills). Test a public video with an available transcript first. Instagram and other platforms may block automated access; never treat a failed fetch as evidence of what a video contains.
+- Add OpenHands only if you need sandboxed multi-file coding tasks. Its official local setup uses Docker and supports Windows via WSL 2; see the [official setup guide](https://github.com/OpenHands/docs/blob/main/openhands/usage/run-openhands/local-setup.mdx). Keep it as a separate phase because it adds more runtime complexity.
+
+### Acceptance checklist
+
+- [ ] `qwen --version` returns a version.
+- [ ] A read-only task correctly explains a test README.
+- [ ] A small change is made only in a disposable test repository and reviewed with `git diff`.
+- [ ] No personal/company secrets were entered into prompts, config committed to Git, or logs.
+- [ ] Any paid provider has an explicit usage/billing limit.
+- [ ] Browser/video tool access is tested separately; no assumption that a GitHub fork automatically connects to ChatGPT.
+
+### What this does and does not accomplish
+
+This installs a separate coding agent on the user's machine if the user follows the steps. It does not upgrade the ChatGPT model, make these tools automatically available in this chat, or bypass platform access restrictions. Direct integration depends on a supported client/host and the account/workspace's currently available features.
