@@ -71,6 +71,7 @@ GitHub profile READMEs support Markdown, images, GIFs and SVGs, but do not run c
 Connect the projects into a practical workflow for video analysis, web research, browser testing, and coding-agent experiments.
 
 - [AI Toolchain Integration Guide](docs/AI-TOOLCHAIN.md) — setup, supported-client limitations, safe rollout, and acceptance checks.
+- [ChatGPT + AI Toolchain Integration Plan](docs/CHATGPT-INTEGRATION-PLAN.md) — ChatGPT connection reality check, architecture, safe integration stages, and Saturday test checklist.
 - [Agent Reach](https://github.com/NayumAhmed/Agent-Reach) · [Video Analyzer](https://github.com/NayumAhmed/mcp-video-analyzer) · [Playwright](https://github.com/NayumAhmed/playwright) · [OpenHands](https://github.com/NayumAhmed/OpenHands)
 
 > These repositories enhance separately configured agents; they do not automatically add tools to ChatGPT itself.
