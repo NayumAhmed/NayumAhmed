@@ -16,9 +16,9 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Check out automation scripts
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Discover and update game-port links
