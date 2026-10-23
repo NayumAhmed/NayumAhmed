@@ -60,6 +60,22 @@ def main():
             if full and full not in existing:
                 candidates[full] = repo
         time.sleep(0.25)
+
+    # Curated additions from GitTrend, chosen for this account's AI-agent and developer-tool focus.
+    # They still pass through the same licence, activity, README, duplicate, and star checks below.
+    curated_repositories = [
+        "cloudflare/security-audit-skill",
+        "ifixai-ai/iFixAi",
+        "harbor-framework/terminal-bench-1",
+    ]
+    for full in curated_repositories:
+        if full.lower() in existing:
+            continue
+        status, repo = api("/repos/" + full)
+        if status == 200 and isinstance(repo, dict):
+            candidates[full.lower()] = repo
+        time.sleep(0.25)
+
     # Enforce a rolling seven-day cap using committed reports from previous runs.
     os.makedirs("reports", exist_ok=True)
     cutoff = datetime.now(timezone.utc) - timedelta(days=7)
