@@ -48,6 +48,9 @@ GitHub profile READMEs support Markdown, images, GIFs and SVGs, but do not run c
 <a href="https://github.com/NayumAhmed/cleanyourtv"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=cleanyourtv&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=a78bfa" alt="Clean Your TV project card"/></a>
 <a href="https://github.com/NayumAhmed/reverse-skill"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=reverse-skill&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=a78bfa" alt="Reverse Skill project card"/></a>
 <a href="https://github.com/NayumAhmed/pentagi"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=pentagi&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=a78bfa" alt="Pentagi project card"/></a>
+<a href="https://github.com/cloudflare/security-audit-skill"><img src="https://github-readme-stats.vercel.app/api/pin/?username=cloudflare&repo=security-audit-skill&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=a78bfa" alt="Cloudflare Security Audit Skill project card"/></a>
+<a href="https://github.com/ifixai-ai/iFixAi"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ifixai-ai&repo=iFixAi&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=a78bfa" alt="iFixAi project card"/></a>
+<a href="https://github.com/harbor-framework/terminal-bench-1"><img src="https://github-readme-stats.vercel.app/api/pin/?username=harbor-framework&repo=terminal-bench-1&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=a78bfa" alt="Terminal Bench project card"/></a>
 <a href="https://github.com/NayumAhmed/Filee"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NayumAhmed&repo=Filee&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=a78bfa" alt="Filee project card"/></a>
 
 </div>
@@ -62,6 +65,9 @@ GitHub profile READMEs support Markdown, images, GIFs and SVGs, but do not run c
 | 🧰 **Reverse Skill** | AI-assisted security workflow and skills | [Open project](https://github.com/NayumAhmed/reverse-skill) |
 | 🛡️ **Pentagi** | AI-powered penetration-testing platform | [Open project](https://github.com/NayumAhmed/pentagi) |
 | 🗂️ **Filee** | Open-source drag-and-drop file converter supporting hundreds of formats | [Open project](https://github.com/NayumAhmed/Filee) |
+| 🛡️ **Security Audit Skill** | Coding-agent security audits with machine-readable findings; review before running | [Upstream project](https://github.com/cloudflare/security-audit-skill) |
+| 🧪 **iFixAi** | Independent auditing and evaluation of AI-agent behavior | [Upstream project](https://github.com/ifixai-ai/iFixAi) |
+| 🧠 **Terminal Bench** | Benchmark for LLMs on complex terminal tasks | [Upstream project](https://github.com/harbor-framework/terminal-bench-1) |
 | 🗂️ **Profile & Automation** | Repository catalogue and discovery workflows | [Open project](https://github.com/NayumAhmed/NayumAhmed) |
 
 </details>
