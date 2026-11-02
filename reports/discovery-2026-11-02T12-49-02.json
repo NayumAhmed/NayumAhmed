@@ -1,0 +1,1325 @@
+{
+  "generated_at_utc": "2026-11-02T12:49:02.925187+00:00",
+  "owner": "NayumAhmed",
+  "dry_run": false,
+  "weekly_fork_limit": 10,
+  "prior_requests_in_rolling_week": 0,
+  "remaining_allowance_at_start": 10,
+  "fork_requests_accepted": 10,
+  "topics": [
+    "ai-tools",
+    "browser-games",
+    "developer-tools",
+    "android-tv",
+    "google-tv",
+    "ai-agents",
+    "web-apps"
+  ],
+  "minimum_stars": 100,
+  "max_push_age_days": 180,
+  "results": [
+    {
+      "repository": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "stars": 151155,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T11:20:12Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/cc-switch"
+    },
+    {
+      "repository": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "stars": 113168,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:41:36Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/orca"
+    },
+    {
+      "repository": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "stars": 92491,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:47:12Z",
+      "decision": "rejected",
+      "reasons": [
+        "repository name already exists in account; avoid duplicate fork"
+      ]
+    },
+    {
+      "repository": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "stars": 85287,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:31:05Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/rtk"
+    },
+    {
+      "repository": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "stars": 56918,
+      "license": "MIT",
+      "pushed_at": "2026-09-14T19:29:02Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/security-audit-skill"
+    },
+    {
+      "repository": "CherryHQ/cherry-studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "stars": 53189,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-02T12:47:43Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/cherry-studio"
+    },
+    {
+      "repository": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "stars": 49811,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T07:54:17Z",
+      "decision": "rejected",
+      "reasons": [
+        "repository name already exists in account; avoid duplicate fork",
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "stars": 42979,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-10-30T18:50:42Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/iFixAi"
+    },
+    {
+      "repository": "medusajs/medusa",
+      "url": "https://github.com/medusajs/medusa",
+      "stars": 37054,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:39:40Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "stars": 36040,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:34:57Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/DeepSeek-Reasonix"
+    },
+    {
+      "repository": "yuliskov/SmartTube",
+      "url": "https://github.com/yuliskov/SmartTube",
+      "stars": 35838,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T01:42:52Z",
+      "decision": "rejected",
+      "reasons": [
+        "repository name already exists in account; avoid duplicate fork"
+      ]
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "stars": 28884,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:47:09Z",
+      "decision": "rejected",
+      "reasons": [
+        "repository name already exists in account; avoid duplicate fork"
+      ]
+    },
+    {
+      "repository": "youhunwl/TVAPP",
+      "url": "https://github.com/youhunwl/TVAPP",
+      "stars": 27084,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T01:06:39Z",
+      "decision": "rejected",
+      "reasons": [
+        "repository name already exists in account; avoid duplicate fork"
+      ]
+    },
+    {
+      "repository": "lidge-jun/opencodex",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "stars": 18163,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:45:04Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/opencodex"
+    },
+    {
+      "repository": "OrchestratorInc/agent-orchestrator",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator",
+      "stars": 14010,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:44:57Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/agent-orchestrator"
+    },
+    {
+      "repository": "grafana/pyroscope",
+      "url": "https://github.com/grafana/pyroscope",
+      "stars": 11709,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-02T12:42:48Z",
+      "decision": "fork request accepted (verify after GitHub processes it)",
+      "reasons": [],
+      "expected_fork_url": "https://github.com/NayumAhmed/pyroscope"
+    },
+    {
+      "repository": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "stars": 11006,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:40:27Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "stars": 8521,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:43:46Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "repowise-dev/repowise",
+      "url": "https://github.com/repowise-dev/repowise",
+      "stars": 8101,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-02T12:39:23Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "stars": 7096,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T11:51:40Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "superdesigndev/treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "stars": 6983,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:47:09Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "AhmadHassan-BTed/Jantt",
+      "url": "https://github.com/AhmadHassan-BTed/Jantt",
+      "stars": 6147,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T11:41:39Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "simbasjungles/free-my-tv",
+      "url": "https://github.com/simbasjungles/free-my-tv",
+      "stars": 5713,
+      "license": "MIT",
+      "pushed_at": "2026-10-31T03:43:32Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "waligoraamodio288-rgb/hongguo-desktop-releases",
+      "url": "https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases",
+      "stars": 5249,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T02:35:32Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "rlaope/oh-my-hermes",
+      "url": "https://github.com/rlaope/oh-my-hermes",
+      "stars": 5042,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:42:37Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "kirodotdev/KiroCrew",
+      "url": "https://github.com/kirodotdev/KiroCrew",
+      "stars": 4720,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:43:39Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "stars": 4618,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:47:41Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "l0ng-ai/openidea",
+      "url": "https://github.com/l0ng-ai/openidea",
+      "stars": 4528,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:37:03Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "SamurAIGPT/llm-wiki-agent",
+      "url": "https://github.com/SamurAIGPT/llm-wiki-agent",
+      "stars": 3671,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T11:11:47Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "Javis603/token-monitor",
+      "url": "https://github.com/Javis603/token-monitor",
+      "stars": 3515,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:21:30Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "edison7009/EchoBird",
+      "url": "https://github.com/edison7009/EchoBird",
+      "stars": 3492,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:15:41Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "GhostenEditor/Ghosten-Player",
+      "url": "https://github.com/GhostenEditor/Ghosten-Player",
+      "stars": 3390,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-01T14:08:22Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "TanStack/ai",
+      "url": "https://github.com/TanStack/ai",
+      "stars": 3324,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:47:22Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "Natively-AI-assistant/natively-cluely-ai-assistant",
+      "url": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
+      "stars": 3156,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:16:26Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "mytv-android/mytv-android",
+      "url": "https://github.com/mytv-android/mytv-android",
+      "stars": 2986,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T05:04:10Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "jgravelle/jcodemunch-mcp",
+      "url": "https://github.com/jgravelle/jcodemunch-mcp",
+      "stars": 2828,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:45:19Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "sandbox-quantum/switch",
+      "url": "https://github.com/sandbox-quantum/switch",
+      "stars": 2734,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:44:03Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "harbor-framework/terminal-bench-1",
+      "url": "https://github.com/harbor-framework/terminal-bench-1",
+      "stars": 2613,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-07-11T05:19:08Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "phronesis-io/eigenflux",
+      "url": "https://github.com/phronesis-io/eigenflux",
+      "stars": 2251,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:41:55Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "OpenVidu/openvidu",
+      "url": "https://github.com/OpenVidu/openvidu",
+      "stars": 2141,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:46:38Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "maxritter/qualitylayer",
+      "url": "https://github.com/maxritter/qualitylayer",
+      "stars": 2110,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:32:26Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "vmoranv/jshookmcp",
+      "url": "https://github.com/vmoranv/jshookmcp",
+      "stars": 2094,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-02T12:44:08Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "doobidoo/mcp-memory-service",
+      "url": "https://github.com/doobidoo/mcp-memory-service",
+      "stars": 2060,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:46:35Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "zzet/gortex",
+      "url": "https://github.com/zzet/gortex",
+      "stars": 1949,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:36:19Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "ariacom/Seal-Report",
+      "url": "https://github.com/ariacom/Seal-Report",
+      "stars": 1642,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T10:37:20Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "webbrain-one/webbrain",
+      "url": "https://github.com/webbrain-one/webbrain",
+      "stars": 1602,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T11:38:41Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "stars": 1594,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:47:36Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "AltanS/collie",
+      "url": "https://github.com/AltanS/collie",
+      "stars": 1550,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:11:13Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "mohitagw15856/pm-claude-skills",
+      "url": "https://github.com/mohitagw15856/pm-claude-skills",
+      "stars": 1506,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:26:37Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "vitalets/awesome-smart-tv",
+      "url": "https://github.com/vitalets/awesome-smart-tv",
+      "stars": 1461,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T08:19:23Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "autonomous-ai/openharness",
+      "url": "https://github.com/autonomous-ai/openharness",
+      "stars": 1409,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:41:10Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "udhaykumarbala/cleanyourtv-app",
+      "url": "https://github.com/udhaykumarbala/cleanyourtv-app",
+      "stars": 1407,
+      "license": "MIT",
+      "pushed_at": "2026-10-31T12:19:04Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "theothernt/AerialViews",
+      "url": "https://github.com/theothernt/AerialViews",
+      "stars": 1146,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-30T14:23:48Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "LeanBitLab/LeanType",
+      "url": "https://github.com/LeanBitLab/LeanType",
+      "stars": 1129,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-02T11:59:58Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "PRProd/HA-Firemote",
+      "url": "https://github.com/PRProd/HA-Firemote",
+      "stars": 1097,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-03-08T06:20:31Z",
+      "decision": "rejected",
+      "reasons": [
+        "not updated in 180 days"
+      ]
+    },
+    {
+      "repository": "bytechefhq/bytechef",
+      "url": "https://github.com/bytechefhq/bytechef",
+      "stars": 1052,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:47:38Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "ling-stack-org/ling-stack",
+      "url": "https://github.com/ling-stack-org/ling-stack",
+      "stars": 992,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:41:40Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "superiorlu/AITreasureBox",
+      "url": "https://github.com/superiorlu/AITreasureBox",
+      "stars": 878,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-02T12:41:46Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "777genius/agent-notifications",
+      "url": "https://github.com/777genius/agent-notifications",
+      "stars": 824,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:45:56Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "reacher-z/Awesome-REA",
+      "url": "https://github.com/reacher-z/Awesome-REA",
+      "stars": 811,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:47:44Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "qf-studio/pilot",
+      "url": "https://github.com/qf-studio/pilot",
+      "stars": 725,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:46:40Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "ahXN00/OwnTV",
+      "url": "https://github.com/ahXN00/OwnTV",
+      "stars": 719,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-02T08:14:11Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "mihirgupta0900/tv-home",
+      "url": "https://github.com/mihirgupta0900/tv-home",
+      "stars": 717,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-18T20:15:22Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "Tavotto/Tavotto",
+      "url": "https://github.com/Tavotto/Tavotto",
+      "stars": 642,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-02T12:46:33Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "sandbaseai/sandbase-harness",
+      "url": "https://github.com/sandbaseai/sandbase-harness",
+      "stars": 640,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:47:08Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "yangxiaoge/tvbox_cust",
+      "url": "https://github.com/yangxiaoge/tvbox_cust",
+      "stars": 621,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-01T20:26:48Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "Nerwyn/universal-remote-card",
+      "url": "https://github.com/Nerwyn/universal-remote-card",
+      "stars": 619,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-01T01:11:55Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "mixpeek/amux",
+      "url": "https://github.com/mixpeek/amux",
+      "stars": 552,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:44:50Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "Sidiora-Labs/paxeer-monorepo",
+      "url": "https://github.com/Sidiora-Labs/paxeer-monorepo",
+      "stars": 546,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:46:57Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "dragonked2/alphacode",
+      "url": "https://github.com/dragonked2/alphacode",
+      "stars": 529,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T10:15:31Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "Graphicle-AI/graphicle",
+      "url": "https://github.com/Graphicle-AI/graphicle",
+      "stars": 493,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:46:22Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "Spyou/Zangetsu",
+      "url": "https://github.com/Spyou/Zangetsu",
+      "stars": 490,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-02T11:43:28Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "sit-in/awesome-grokbot-playbooks",
+      "url": "https://github.com/sit-in/awesome-grokbot-playbooks",
+      "stars": 460,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:45:22Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "MoazSalem/litefin",
+      "url": "https://github.com/MoazSalem/litefin",
+      "stars": 450,
+      "license": "MPL-2.0",
+      "pushed_at": "2026-11-02T12:37:56Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "leanbitlab-org/LtvLauncher",
+      "url": "https://github.com/leanbitlab-org/LtvLauncher",
+      "stars": 447,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-02T04:25:01Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "Soodok/Deepseek-Harness-Local-Android",
+      "url": "https://github.com/Soodok/Deepseek-Harness-Local-Android",
+      "stars": 445,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:47:42Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "abacusai/abacusai-bot",
+      "url": "https://github.com/abacusai/abacusai-bot",
+      "stars": 418,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:46:19Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "convertigo/convertigo",
+      "url": "https://github.com/convertigo/convertigo",
+      "stars": 387,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-02T10:37:17Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "playbridgeapp/playbridge",
+      "url": "https://github.com/playbridgeapp/playbridge",
+      "stars": 383,
+      "license": "MPL-2.0",
+      "pushed_at": "2026-11-02T00:32:00Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "mrwogu/promptscript",
+      "url": "https://github.com/mrwogu/promptscript",
+      "stars": 380,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:23:40Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "MartinStyk/apk-analyzer",
+      "url": "https://github.com/MartinStyk/apk-analyzer",
+      "stars": 378,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-02T11:57:10Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "intent-hq/intent",
+      "url": "https://github.com/intent-hq/intent",
+      "stars": 371,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:43:16Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "tanaikech/taking-advantage-of-Web-Apps-with-google-apps-script",
+      "url": "https://github.com/tanaikech/taking-advantage-of-Web-Apps-with-google-apps-script",
+      "stars": 345,
+      "license": "MIT",
+      "pushed_at": "2025-07-18T01:57:35Z",
+      "decision": "rejected",
+      "reasons": [
+        "not updated in 180 days"
+      ]
+    },
+    {
+      "repository": "jdubois/boot-ui",
+      "url": "https://github.com/jdubois/boot-ui",
+      "stars": 326,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:47:20Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "alvarolorentedev/opencode-mobile",
+      "url": "https://github.com/alvarolorentedev/opencode-mobile",
+      "stars": 319,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:42:57Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "hxreborn/morphe-patches",
+      "url": "https://github.com/hxreborn/morphe-patches",
+      "stars": 288,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-02T11:03:43Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "mclhm8182/tvhome-zh",
+      "url": "https://github.com/mclhm8182/tvhome-zh",
+      "stars": 286,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-27T11:36:55Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "puritysb/AgentDeck",
+      "url": "https://github.com/puritysb/AgentDeck",
+      "stars": 277,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:36:11Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "VortXTV/VortX",
+      "url": "https://github.com/VortXTV/VortX",
+      "stars": 253,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-02T04:30:20Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "xiazheteng8/TV-Studio",
+      "url": "https://github.com/xiazheteng8/TV-Studio",
+      "stars": 250,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-01T12:59:21Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence",
+        "description missing"
+      ]
+    },
+    {
+      "repository": "screentinker/screentinker",
+      "url": "https://github.com/screentinker/screentinker",
+      "stars": 248,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T11:46:51Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "wingedpanther/cleanmytv",
+      "url": "https://github.com/wingedpanther/cleanmytv",
+      "stars": 236,
+      "license": "MIT",
+      "pushed_at": "2026-11-01T11:45:48Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "lobu-ai/lobu",
+      "url": "https://github.com/lobu-ai/lobu",
+      "stars": 233,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:46:54Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "Dicklesworthstone/mcp_agent_mail_rust",
+      "url": "https://github.com/Dicklesworthstone/mcp_agent_mail_rust",
+      "stars": 229,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:41:53Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "jmagly/aiwg",
+      "url": "https://github.com/jmagly/aiwg",
+      "stars": 227,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:42:45Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "tshi-dev/UrTV",
+      "url": "https://github.com/tshi-dev/UrTV",
+      "stars": 224,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:44:16Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "biolend83/tubehaus",
+      "url": "https://github.com/biolend83/tubehaus",
+      "stars": 222,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-02T10:57:35Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "cristipufu/strata-files",
+      "url": "https://github.com/cristipufu/strata-files",
+      "stars": 219,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:43:29Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "notdxbi/dxbi-stremio",
+      "url": "https://github.com/notdxbi/dxbi-stremio",
+      "stars": 218,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-02T12:34:02Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "withmarfa/marfa",
+      "url": "https://github.com/withmarfa/marfa",
+      "stars": 217,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:40:43Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "BeatsAD/quiet-tv",
+      "url": "https://github.com/BeatsAD/quiet-tv",
+      "stars": 215,
+      "license": "MIT",
+      "pushed_at": "2026-11-01T21:28:03Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "amirfish1/claude-command-center",
+      "url": "https://github.com/amirfish1/claude-command-center",
+      "stars": 214,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:42:43Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "newrelic/terraform-provider-newrelic",
+      "url": "https://github.com/newrelic/terraform-provider-newrelic",
+      "stars": 214,
+      "license": "MPL-2.0",
+      "pushed_at": "2026-11-02T12:31:11Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "0xProbabillity/luma-tv",
+      "url": "https://github.com/0xProbabillity/luma-tv",
+      "stars": 206,
+      "license": "MIT",
+      "pushed_at": "2026-10-30T10:16:48Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "rudra496/StealthHumanizer",
+      "url": "https://github.com/rudra496/StealthHumanizer",
+      "stars": 201,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:35:11Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "mazer666/PhairPlay",
+      "url": "https://github.com/mazer666/PhairPlay",
+      "stars": 200,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-25T16:59:38Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "Seagey/couch-tv",
+      "url": "https://github.com/Seagey/couch-tv",
+      "stars": 196,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T07:47:56Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "niubihu1/tvbox",
+      "url": "https://github.com/niubihu1/tvbox",
+      "stars": 191,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-01T23:26:21Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "ventic/ventic",
+      "url": "https://github.com/ventic/ventic",
+      "stars": 182,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T06:58:02Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "brunochanrio/DangoPlayer",
+      "url": "https://github.com/brunochanrio/DangoPlayer",
+      "stars": 170,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-11T21:19:39Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "dracu-lah/TMPlayer",
+      "url": "https://github.com/dracu-lah/TMPlayer",
+      "stars": 164,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-02T03:05:02Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "ELowry/DNSToggle",
+      "url": "https://github.com/ELowry/DNSToggle",
+      "stars": 159,
+      "license": "MIT",
+      "pushed_at": "2026-11-01T01:27:58Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "AetherCore-Dev/relay-radar",
+      "url": "https://github.com/AetherCore-Dev/relay-radar",
+      "stars": 149,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T11:03:21Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "HilbertraumAI/HilbertRaum",
+      "url": "https://github.com/HilbertraumAI/HilbertRaum",
+      "stars": 146,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-02T12:35:55Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "Mephiles/torntools_extension",
+      "url": "https://github.com/Mephiles/torntools_extension",
+      "stars": 141,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-01T23:23:50Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "aldrinzigmundv/digilogtv",
+      "url": "https://github.com/aldrinzigmundv/digilogtv",
+      "stars": 141,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-03-29T04:49:15Z",
+      "decision": "rejected",
+      "reasons": [
+        "not updated in 180 days"
+      ]
+    },
+    {
+      "repository": "vgrichina/berrry-wine",
+      "url": "https://github.com/vgrichina/berrry-wine",
+      "stars": 138,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:32:20Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "Sanuu7/AndroidHarness",
+      "url": "https://github.com/Sanuu7/AndroidHarness",
+      "stars": 137,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T10:15:24Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "cometchat/docs-mcp",
+      "url": "https://github.com/cometchat/docs-mcp",
+      "stars": 136,
+      "license": "APACHE-2.0",
+      "pushed_at": "2026-11-02T12:45:32Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "opentvproject/opentv",
+      "url": "https://github.com/opentvproject/opentv",
+      "stars": 136,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-28T15:22:11Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "unclecode/modelprint",
+      "url": "https://github.com/unclecode/modelprint",
+      "stars": 134,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T10:56:43Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "Manuito83/torn-pda",
+      "url": "https://github.com/Manuito83/torn-pda",
+      "stars": 131,
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-30T14:34:23Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "thousandflowers/Raccoon",
+      "url": "https://github.com/thousandflowers/Raccoon",
+      "stars": 129,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:31:33Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "dhasap/dhanytv",
+      "url": "https://github.com/dhasap/dhanytv",
+      "stars": 129,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T03:56:54Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "AgustiPuigserver/opus-prompt-architect",
+      "url": "https://github.com/AgustiPuigserver/opus-prompt-architect",
+      "stars": 126,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T10:46:19Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "opengeos/solara-geospatial",
+      "url": "https://github.com/opengeos/solara-geospatial",
+      "stars": 125,
+      "license": "MIT",
+      "pushed_at": "2023-09-08T22:06:42Z",
+      "decision": "rejected",
+      "reasons": [
+        "not updated in 180 days"
+      ]
+    },
+    {
+      "repository": "heavenaruba/codified-prompt-rule-engine",
+      "url": "https://github.com/heavenaruba/codified-prompt-rule-engine",
+      "stars": 122,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T10:45:18Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "kosumic/whip",
+      "url": "https://github.com/kosumic/whip",
+      "stars": 121,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-02T12:47:06Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "trefeon/pi-freeflow",
+      "url": "https://github.com/trefeon/pi-freeflow",
+      "stars": 117,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:45:28Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "BeOnAuto/runtime",
+      "url": "https://github.com/BeOnAuto/runtime",
+      "stars": 113,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02T12:47:44Z",
+      "decision": "rejected",
+      "reasons": [
+        "no clear SPDX open-source licence"
+      ]
+    },
+    {
+      "repository": "lappemic/awesome-ai-built-games",
+      "url": "https://github.com/lappemic/awesome-ai-built-games",
+      "stars": 112,
+      "license": "CC0-1.0",
+      "pushed_at": "2026-10-29T23:16:17Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "autopus-ai/autopus-adk",
+      "url": "https://github.com/autopus-ai/autopus-adk",
+      "stars": 110,
+      "license": "MIT",
+      "pushed_at": "2026-11-02T12:33:41Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "NyanTV/NyanTV",
+      "url": "https://github.com/NyanTV/NyanTV",
+      "stars": 110,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-06-28T01:41:38Z",
+      "decision": "eligible but weekly fork allowance exhausted",
+      "reasons": []
+    },
+    {
+      "repository": "nyancodeid/iro",
+      "url": "https://github.com/nyancodeid/iro",
+      "stars": 107,
+      "license": "MIT",
+      "pushed_at": "2023-03-04T05:30:11Z",
+      "decision": "rejected",
+      "reasons": [
+        "not updated in 180 days"
+      ]
+    }
+  ],
+  "warning": "Metadata screening is not a security audit. Never run candidate code without independent review."
+}
